@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+html.dark body {
+    background-color: rgb(18 22 36);
+    color: #ffffff;
+}
+
+@font-face {
+    font-family: "Aeonik";
+    src: url("/src/fonts/AeonikTRIAL-Light.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.burger {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.burger.open div:nth-child(1) {
+    transform: rotate(45deg) translateY(10px);
+}
+
+.burger.open div:nth-child(2) {
+    opacity: 0;
+}
+
+.burger.open div:nth-child(3) {
+    transform: rotate(-45deg) translateY(-10px);
+}
+
+.menu {
+    transition: transform 0.3s ease;
+}
+
+.menu.translate-x-0 {
+    transform: translateX(0);
+}
+
+.menu.-translate-x-full {
+    transform: translateX(-100%);
+}
+
+.activeGray {
+    background-color: rgb(248 249 250);
+}
+
+.nav-button {
+    background: linear-gradient(62.19deg, #f27d00 15.48%, #f8a700 76.25%);
+    transition: ease-in-out 0.3s;
+    font-family: "Aeonik", sans-serif;
+}
+
+.nav-button:hover {
+    box-shadow: 0 10px 25px 0 #f6960166;
+}
+
+.darkBlack {
+    background-color: rgb(18 22 36);
+}
+
+.dark .activeGray {
+    background-color: rgb(30 30 30);
+}
+
+.blue-gradient {
+    background: linear-gradient(37.55deg, #0d99ff 19.62%, #22b1ec 84.46%);
+}
+
+.orange-gradient {
+    background: linear-gradient(62.19deg, #f27d00 15.48%, #f8a700 76.25%);
+}
