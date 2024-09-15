@@ -28,7 +28,7 @@ function WhySelected() {
                         <div className="flex flex-col gap-3 ">
                             <div className="rounded-[1.3rem] flex-grow bg-[#f7f7f7] p-6 flex flex-col justify-between items-start dark:bg-activeGray dark:bg-opacity-10">
                                 <img
-                                    src="/public/support.svg"
+                                    src="/support.svg"
                                     sizes="(max-width: 768px) 150px, 300px"
                                     className="w-16"
                                 />
@@ -47,7 +47,7 @@ function WhySelected() {
                         <div className="flex flex-col gap-3 ">
                             <div className="rounded-[1.3rem] flex-grow bg-[#f7f7f7] p-6 flex flex-col justify-between items-start dark:bg-activeGray dark:bg-opacity-10">
                                 <img
-                                    src="/public/test.svg"
+                                    src="/test.svg"
                                     sizes="(max-width: 768px) 150px, 300px"
                                     className="w-16"
                                 />
@@ -69,7 +69,7 @@ function WhySelected() {
                     <div className="flex flex-col gap-3 ">
                         <div className="rounded-[1.3rem] flex-grow bg-[#f7f7f7] p-6 flex flex-col justify-between items-start dark:bg-activeGray dark:bg-opacity-10  aos-init aos-animate">
                             <img
-                                src="/public/teachers.png"
+                                src="/teachers.png"
                                 sizes="(max-width: 768px) 150px, 300px"
                                 className="md:w-[90%] md:mx-auto w-16"
                             />
@@ -89,7 +89,7 @@ function WhySelected() {
                         <div className="flex flex-col gap-3 ">
                             <div className="rounded-[1.3rem] flex-grow bg-[#f7f7f7] p-6 flex flex-col justify-between items-start dark:bg-activeGray dark:bg-opacity-10">
                                 <img
-                                    src="/public/event.svg"
+                                    src="/event.svg"
                                     sizes="(max-width: 768px) 150px, 300px"
                                     className="w-16"
                                 />
@@ -108,7 +108,7 @@ function WhySelected() {
                         <div className="flex flex-col gap-3 ">
                             <div className="rounded-[1.3rem] flex-grow bg-[#f7f7f7] p-6 flex flex-col justify-between items-start dark:bg-activeGray dark:bg-opacity-10">
                                 <img
-                                    src="/public/co-working.svg"
+                                    src="/co-working.svg"
                                     sizes="(max-width: 768px) 150px, 300px"
                                     className="w-16"
                                 />
