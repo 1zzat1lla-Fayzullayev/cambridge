@@ -1,3 +1,5 @@
+/* styles.css */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -5,6 +7,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Aeonik", sans-serif;
 }
 
 body {
@@ -20,7 +23,7 @@ html.dark body {
 
 @font-face {
     font-family: "Aeonik";
-    src: url("/src/fonts/AeonikTRIAL-Light.otf") format("opentype");
+    src: url("/src/fonts/AeonikTRIAL-Regular.otf") format("opentype");
     font-weight: normal;
     font-style: normal;
 }
@@ -89,15 +92,63 @@ html.dark body {
     background: linear-gradient(62.19deg, #f27d00 15.48%, #f8a700 76.25%);
 }
 
-@keyframes scale {
-    0% {
-        transform: scale(1);
-    }
-    100% {
-        transform: scale(1.1);
-    }
+.red-gradient {
+    background: linear-gradient(62.18deg, #e60c20 15.48%, #ee5b0a 76.25%);
 }
 
-.infinite-scale {
-    animation: scale 1s linear infinite;
+.green-gradient {
+    background: linear-gradient(62.18deg, #029720 15.48%, #60b212 76.25%);
+}
+
+.card-hover:hover .card-icon .card-circle,
+.card-hover:hover .card-title {
+    color: white;
+}
+
+.card-bg-blue-hover:hover {
+    background: linear-gradient(37.55deg, #0d99ff 19.62%, #22b1ec 84.46%);
+}
+
+.card-bg-orange-hover:hover {
+    background: linear-gradient(62.19deg, #f27d00 15.48%, #f8a700 76.25%);
+}
+
+.card-bg-red-hover:hover {
+    background: linear-gradient(62.18deg, #e60c20 15.48%, #ee5b0a 76.25%);
+}
+
+.card-bg-green-hover:hover {
+    background: linear-gradient(62.18deg, #029720 15.48%, #60b212 76.25%);
+}
+
+.card-icon .blue-card-circle {
+    background: linear-gradient(37.55deg, #0d99ff 19.62%, #22b1ec 84.46%);
+}
+
+.card-icon .orange-card-circle {
+    background: linear-gradient(62.19deg, #f27d00 15.48%, #f8a700 76.25%);
+}
+
+.card-icon .red-card-circle {
+    background: linear-gradient(62.18deg, #e60c20 15.48%, #ee5b0a 76.25%);
+}
+
+.card-icon .green-card-circle {
+    background: linear-gradient(62.18deg, #029720 15.48%, #60b212 76.25%);
+}
+
+.card-bg-blue-hover:hover .card-icon .blue-card-circle {
+    background: white;
+}
+
+.card-bg-red-hover:hover .card-icon .red-card-circle {
+    background: white;
+}
+
+.card-bg-orange-hover:hover .card-icon .orange-card-circle {
+    background: white;
+}
+
+.card-bg-green-hover:hover .card-icon .green-card-circle {
+    background: white;
 }

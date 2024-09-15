@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react"
 import Header from "./components/header"
 import Navbar from "./components/navbar"
+import Cards from "./components/cards"
 
 function App() {
   const [loading, setLoading] = useState(true)
@@ -24,6 +25,7 @@ function App() {
 
       <Navbar />
       <Header />
+      <Cards />
     </>
   )
 }
