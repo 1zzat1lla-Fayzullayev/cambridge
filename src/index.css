@@ -152,3 +152,7 @@ html.dark body {
 .card-bg-green-hover:hover .card-icon .green-card-circle {
     background: white;
 }
+
+.mainBlue {
+    color: #050a41;
+}
