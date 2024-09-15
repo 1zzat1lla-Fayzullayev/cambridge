@@ -30,14 +30,14 @@ function SecondSwiper() {
                                 >
                                     <img
                                         width="25"
-                                        src="/public/pause.svg"
+                                        src="/pause.svg"
                                         style={{ display: "none" }}
                                     />
                                     <img
                                         width="25"
 
 
-                                        src="/public/play.svg"
+                                        src="/play.svg"
                                         className="pl-1"
                                     />
                                 </button>
@@ -68,14 +68,14 @@ function SecondSwiper() {
                                 >
                                     <img
                                         width="25"
-                                        src="/public/pause.svg"
+                                        src="/pause.svg"
                                         style={{ display: "none" }}
                                     />
                                     <img
                                         width="25"
 
 
-                                        src="/public/play.svg"
+                                        src="/play.svg"
                                         className="pl-1"
                                     />
                                 </button>
@@ -106,14 +106,14 @@ function SecondSwiper() {
                                 >
                                     <img
                                         width="25"
-                                        src="/public/pause.svg"
+                                        src="/pause.svg"
                                         style={{ display: "none" }}
                                     />
                                     <img
                                         width="25"
 
 
-                                        src="/public/play.svg"
+                                        src="/play.svg"
                                         className="pl-1"
                                     />
                                 </button>
@@ -143,14 +143,14 @@ function SecondSwiper() {
                                 >
                                     <img
                                         width="25"
-                                        src="/public/pause.svg"
+                                        src="/pause.svg"
                                         style={{ display: "none" }}
                                     />
                                     <img
                                         width="25"
 
 
-                                        src="/public/play.svg"
+                                        src="/play.svg"
                                         className="pl-1"
                                     />
                                 </button>
@@ -181,14 +181,14 @@ function SecondSwiper() {
                                 >
                                     <img
                                         width="25"
-                                        src="/public/pause.svg"
+                                        src="/pause.svg"
                                         style={{ display: "none" }}
                                     />
                                     <img
                                         width="25"
 
 
-                                        src="/public/play.svg"
+                                        src="/play.svg"
                                         className="pl-1"
                                     />
                                 </button>
@@ -218,12 +218,12 @@ function SecondSwiper() {
                                 >
                                     <img
                                         width="25"
-                                        src="/public/pause.svg"
+                                        src="/pause.svg"
                                         style={{ display: "none" }}
                                     />
                                     <img
                                         width="25"
-                                        src="/public/play.svg"
+                                        src="/play.svg"
                                         className="pl-1"
                                     />
                                 </button>
@@ -253,12 +253,12 @@ function SecondSwiper() {
                                 >
                                     <img
                                         width="25"
-                                        src="/public/pause.svg"
+                                        src="/pause.svg"
                                         style={{ display: "none" }}
                                     />
                                     <img
                                         width="25"
-                                        src="/public/play.svg"
+                                        src="/play.svg"
                                         className="pl-1"
                                     />
                                 </button>
@@ -289,14 +289,14 @@ function SecondSwiper() {
                                 >
                                     <img
                                         width="25"
-                                        src="/public/pause.svg"
+                                        src="/pause.svg"
                                         style={{ display: "none" }}
                                     />
                                     <img
                                         width="25"
 
 
-                                        src="/public/play.svg"
+                                        src="/play.svg"
                                         className="pl-1"
                                     />
                                 </button>
@@ -327,14 +327,14 @@ function SecondSwiper() {
                                 >
                                     <img
                                         width="25"
-                                        src="/public/pause.svg"
+                                        src="/pause.svg"
                                         style={{ display: "none" }}
                                     />
                                     <img
                                         width="25"
 
 
-                                        src="/public/play.svg"
+                                        src="/play.svg"
                                         className="pl-1"
                                     />
                                 </button>
