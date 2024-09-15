@@ -16,7 +16,7 @@ function App() {
 
   if (loading) {
     return (
-      <div className="flex flex-col items-center justify-center fixed left-0 top-0 h-full w-full z-[1000] bg-white overflow-hidden"><img src="/public/loading-logo.svg" className="infinite-scale w-[80px] h-[80px]" alt="Loading..." /></div>
+      <div className="flex flex-col items-center justify-center fixed left-0 top-0 h-full w-full z-[1000] bg-white overflow-hidden"><img src="/loading-logo.svg" className="infinite-scale w-[80px] h-[80px]" alt="Loading..." /></div>
     )
   }
   return (
