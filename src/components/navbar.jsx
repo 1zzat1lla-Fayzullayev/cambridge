@@ -1,10 +1,10 @@
 import { useState, useEffect } from 'react';
 import Wrapper from "../layout/wrapper";
-import ThemeToggle from '../ui/ThemeToggle';
+import ThemeToggle from '../ui/themeToggle'; 
 
 function Navbar() {
     const [isLangMenuOpen, setLangMenuOpen] = useState(false);
-    const [isMenuOpen, setMenuOpen] = useState(false); // State for mobile menu visibility
+    const [isMenuOpen, setMenuOpen] = useState(false);
     const [theme, setTheme] = useState('light');
 
     useEffect(() => {
