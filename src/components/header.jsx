@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 
 function Header() {
     useEffect(() => {
-        AOS.init(); // Initialize AOS (Animate On Scroll) library
+        AOS.init();
     }, []);
 
     return (

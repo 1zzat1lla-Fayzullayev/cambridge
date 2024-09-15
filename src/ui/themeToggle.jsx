@@ -24,8 +24,8 @@ const ThemeToggle = ({ onChange }) => {
   return (
     <div onClick={toggleTheme}>
       {theme === 'light' ?
-        <img src="/public/dark-mode.svg" alt="Dark mode" className='cursor-pointer' /> :
-        <img src="/public/light-mode.svg" alt="Light mode" className='cursor-pointer' />
+        <img src="/dark-mode.svg" alt="Dark mode" className='cursor-pointer' /> :
+        <img src="/light-mode.svg" alt="Light mode" className='cursor-pointer' />
       }
     </div>
   );
