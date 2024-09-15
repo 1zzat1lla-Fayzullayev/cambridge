@@ -24,13 +24,11 @@ function Header() {
                     </p>
                     <a
                         href="/ru/registration"
-                        rel="noopener noreferrer"
                         target="_blank"
                         className="block w-full max-w-max "
                     >
                         <button
-                            aria-label="Register for Cambridge"
-                            className="flex items-center justify-center px-8 py-4 rounded-2xl duration-200 blue-gradient w-full max-w-max"
+                            className="flex header-btn items-center justify-center px-8 py-4 rounded-2xl duration-200 blue-gradient w-full max-w-max"
                         >
                             <span className="text-base lg:text-lg text-white">
                                 Запишитесь на первый урок

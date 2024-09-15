@@ -76,6 +76,10 @@ html.dark body {
     box-shadow: 0 10px 25px 0 #f6960166;
 }
 
+.header-btn:hover {
+    box-shadow: 0 10px 25px 0 #0d9aff70;
+}
+
 .darkBlack {
     background-color: rgb(18 22 36);
 }
