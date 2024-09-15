@@ -10,6 +10,7 @@
 body {
     background-color: #ffffff;
     color: #000000;
+    overflow-x: hidden;
 }
 
 html.dark body {
@@ -86,4 +87,17 @@ html.dark body {
 
 .orange-gradient {
     background: linear-gradient(62.19deg, #f27d00 15.48%, #f8a700 76.25%);
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+.infinite-scale {
+    animation: scale 1s linear infinite;
 }
