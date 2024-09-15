@@ -23,7 +23,7 @@ function Header() {
                         За 9 лет Cambridge способствовал изменению жизни более 50 000 молодых людей
                     </p>
                     <a
-                        href="/ru/registration"
+                        href="#"
                         target="_blank"
                         className="block w-full max-w-max "
                     >

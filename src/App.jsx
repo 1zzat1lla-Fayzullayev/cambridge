@@ -4,6 +4,7 @@ import Header from "./components/header"
 import Navbar from "./components/navbar"
 import Cards from "./components/cards"
 import WhySelected from "./components/whySelected"
+import SecondSwiper from "./components/secondSwiper"
 
 function App() {
   const [loading, setLoading] = useState(true)
@@ -23,11 +24,11 @@ function App() {
   }
   return (
     <>
-
       <Navbar />
       <Header />
       <Cards />
       <WhySelected />
+      <SecondSwiper />
     </>
   )
 }
