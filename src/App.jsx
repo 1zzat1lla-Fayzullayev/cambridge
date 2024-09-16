@@ -5,6 +5,7 @@ import Navbar from "./components/navbar"
 import Cards from "./components/cards"
 import WhySelected from "./components/whySelected"
 import SecondSwiper from "./components/secondSwiper"
+import Teachers from "./components/teachers"
 
 function App() {
   const [loading, setLoading] = useState(true)
@@ -29,6 +30,7 @@ function App() {
       <Cards />
       <WhySelected />
       <SecondSwiper />
+      <Teachers />
     </>
   )
 }
