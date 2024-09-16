@@ -88,9 +88,9 @@ function Navbar() {
                                 </div>
                             )}
                         </div>
-                        <button className='nav-button lg:flex items-center justify-center px-8 rounded-2xl duration-200 orange-gradient py-3 text-white mr-5 hidden xl:block'>
+                        {/* <button className='nav-button lg:flex items-center justify-center px-8 rounded-2xl duration-200 orange-gradient py-3 text-white mr-5 hidden xl:block'>
                             <span className='text-base lg:text-lg text-white'>Войти</span>
-                        </button>
+                        </button> */}
                         <ThemeToggle onChange={handleThemeChange} />
                         <div
                             className={`burger ${isMenuOpen ? 'open' : ''} block lg:hidden`}
@@ -116,9 +116,9 @@ function Navbar() {
                         </button>
                     </a>
                 </div>
-                <button aria-label="Base card" className="flex items-center justify-center px-8 py-4 rounded-2xl duration-200 orange-gradient sm:mx-auto md:mx-0 w-full">
+                {/* <button aria-label="Base card" className="flex items-center justify-center px-8 py-4 rounded-2xl duration-200 orange-gradient sm:mx-auto md:mx-0 w-full">
                     <span className="text-base lg:text-lg text-white">Войти</span>
-                </button>
+                </button> */}
             </div>
         </>
     );
