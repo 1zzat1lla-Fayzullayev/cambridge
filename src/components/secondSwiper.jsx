@@ -94,8 +94,8 @@ function SecondSwiper() {
                 <Swiper
                     spaceBetween={10}
                     slidesPerView={1}
-                    navigation
-                    pagination={{ clickable: true }}
+                    // navigation
+                    // pagination={{ clickable: true }}
                     breakpoints={{
                         320: {
                             slidesPerView: 1,

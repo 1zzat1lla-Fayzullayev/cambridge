@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination } from 'swiper/modules';
+// import { Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css'; 
 
 const slides = [
@@ -40,9 +40,9 @@ const MobileWhySelectedSwiper = () => {
         <Swiper
             spaceBetween={20}
             slidesPerView={1}
-            pagination={{ clickable: true }}
-            navigation={true}
-            modules={[Pagination, Navigation]}
+            // pagination={{ clickable: true }}
+            // navigation={true}
+            // modules={[Pagination, Navigation]}
             className="mySwiper"
         >
             {slides.map((slide, index) => (
