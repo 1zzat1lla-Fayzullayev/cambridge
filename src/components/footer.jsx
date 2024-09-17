@@ -1,6 +1,9 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/prop-types */
 import Wrapper from "../layout/wrapper";
 
-function Footer() {
+function Footer({ theme, setTheme }) {
+
     return (
         <>
             <div className="bg-[#f8f9fa1a] mt-[100px]">
@@ -9,7 +12,11 @@ function Footer() {
                         <Wrapper>
                             <div className="py-6 flex flex-col gap-y-5 sm:flex-row flex-wrap sm:items-start sm:gap-x-5 md:gap-x-14 lg:py-12 w-full">
                                 <a aria-current="page" href="#" className="router-link-active router-link-exact-active md:w-full xl:w-fit">
-                                    <img src="/logo-white.svg" width="180" alt="Logo of Cambridge Learning Center" />
+                                    <img
+                                        src={theme === 'light' ? "/turkchasoati1.png" : "/turkchasoati2.png"}
+                                        alt="Logo"
+                                        className='w-36 lg:w-44'
+                                    />
                                 </a>
                                 <div className="max-w-sm md:w-xs md:flex-grow">
                                     <h2 className="text-[1.500rem] lg:text-[1.875rem]">Cambridge Learning Center</h2>

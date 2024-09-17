@@ -10,6 +10,16 @@ import Footer from "./components/footer"
 
 function App() {
   const [loading, setLoading] = useState(true)
+  const [theme, setTheme] = useState('light');
+
+
+  useEffect(() => {
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme) {
+      setTheme(savedTheme);
+      document.documentElement.classList.add(savedTheme);
+    }
+  }, []);
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -26,13 +36,13 @@ function App() {
   }
   return (
     <>
-      <Navbar />
+      <Navbar theme={theme} setTheme={setTheme}/>
       <Header />
       <Cards />
       <WhySelected />
       <SecondSwiper />
       <Teachers />
-      <Footer />
+      <Footer theme={theme} setTheme={setTheme}/>
     </>
   )
 }

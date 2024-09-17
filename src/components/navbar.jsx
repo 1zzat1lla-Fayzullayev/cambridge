@@ -1,19 +1,13 @@
+/* eslint-disable react/prop-types */
 import { useState, useEffect } from 'react';
 import Wrapper from "../layout/wrapper";
 import ThemeToggle from '../ui/themeToggle';
 
-function Navbar() {
+function Navbar({ theme, setTheme }) {
     const [isLangMenuOpen, setLangMenuOpen] = useState(false);
     const [isMenuOpen, setMenuOpen] = useState(false);
-    const [theme, setTheme] = useState('light');
 
-    useEffect(() => {
-        const savedTheme = localStorage.getItem('theme');
-        if (savedTheme) {
-            setTheme(savedTheme);
-            document.documentElement.classList.add(savedTheme);
-        }
-    }, []);
+
 
     useEffect(() => {
         if (isMenuOpen) {
@@ -49,7 +43,7 @@ function Navbar() {
                 <div className="flex justify-between items-center py-3 md:py-4 relative z-[999]">
                     <div className="flex items-center gap-[30px]">
                         <img
-                            src={theme === 'light' ? "/logo.svg" : "/logo-white.svg"}
+                            src={theme === 'light' ? "/turkchasoati1.png" : "/turkchasoati2.png"}
                             alt="Logo"
                             className='w-36 lg:w-44'
                         />
