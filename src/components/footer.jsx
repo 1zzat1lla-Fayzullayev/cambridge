@@ -6,8 +6,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Footer({ theme }) {
     return (
-        <div className="bg-[#f8f9fa1a] mt-[100px]">
-            <footer className="dark:bg-activeGray dark:bg-opacity-10 duration-300 w-full">
+        <div className="bg-[#F7F7F7] dark:bg-[#f8f9fa1a] mt-[100px]">
+            <footer className="dark:bg-opacity-10 duration-300 w-full">
                 <div className="footer-top">
                     <Wrapper>
                         <div className="py-6 flex flex-col sm:flex-row justify-between items-start gap-6 md:gap-12 lg:py-12">

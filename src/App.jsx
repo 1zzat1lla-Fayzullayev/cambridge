@@ -7,6 +7,7 @@ import WhySelected from "./components/whySelected"
 import SecondSwiper from "./components/secondSwiper"
 import Teachers from "./components/teachers"
 import Footer from "./components/footer"
+import ContactUS from "./components/contactUS"
 
 function App() {
   const [loading, setLoading] = useState(true)
@@ -46,6 +47,7 @@ function App() {
       <WhySelected />
       {/* <SecondSwiper /> */}
       <Teachers />
+      <ContactUS />
       <Footer theme={theme} setTheme={setTheme} />
     </>
   )
