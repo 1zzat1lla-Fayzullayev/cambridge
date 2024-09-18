@@ -24,7 +24,7 @@ const ContactUS = () => {
         setIsLoading(true);
 
         const text = `Name: ${name}\nMessage: ${description}\nPhone number: ${phone}\nEmail: ${email.length === 0 ? "Email is empty" : email
-            }\n Services: ${service}`;
+            }\n Level: ${service}`;
 
         try {
             await axios.post(
@@ -56,10 +56,10 @@ const ContactUS = () => {
             <>
                 <div className="flex flex-col md:flex-row items-center justify-center mt-[50px]">
                     <div className="w-full">
-                        <form onSubmit={sendFeedback} className="bg-white p-8 rounded-lg">
+                        <form onSubmit={sendFeedback} className="p-8 rounded-lg">
                             <div className="flex flex-col justify-center items-center">
 
-                                <h3 className="md:text-[50px] font-bold text-gray-800 mb-2">Tavsiye Alın</h3>
+                                <h3 className="md:text-[50px] font-bold text-gray-800 mb-2 dark:text-white">Tavsiye Alın</h3>
                                 <p className="text-gray-600 mb-6">Bizimle iletişime geçmek için lütfen aşağıdaki formu doldurun.</p>
                             </div>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
@@ -68,7 +68,7 @@ const ContactUS = () => {
                                         placeholder="Adınız"
                                         onChange={(e) => setName(e.target.value)}
                                         value={name}
-                                        className="form-control border border-gray-300 rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-blue-400"
+                                        className="form-control border border-gray-300 dark:border-[#ffffff36] bg-transparent rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-blue-400"
                                         name="name"
                                         required
                                         type="text"
@@ -79,7 +79,7 @@ const ContactUS = () => {
                                         placeholder="Telefonunuz"
                                         onChange={handlePhoneChange}
                                         value={phone}
-                                        className="form-control border border-gray-300 rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-blue-400"
+                                        className="form-control border border-gray-300 dark:border-[#ffffff36] bg-transparent rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-blue-400"
                                         name="phone"
                                         required
                                         mask="+999 (99) 999-99-99"
@@ -92,7 +92,7 @@ const ContactUS = () => {
                                     placeholder="E-postanız"
                                     onChange={(e) => setEmail(e.target.value)}
                                     value={email}
-                                    className="form-control border border-gray-300 rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-blue-400"
+                                    className="form-control border border-gray-300 dark:border-[#ffffff36] bg-transparent rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-blue-400"
                                     name="email"
                                     required
                                     type="email"
@@ -102,17 +102,18 @@ const ContactUS = () => {
                                 <select
                                     onChange={(e) => setService(e.target.value)}
                                     value={service}
-                                    className="form-control border border-gray-300 rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-blue-400"
+                                    className="form-control border border-gray-300 dark:border-[#ffffff36] bg-transparent rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-blue-400"
                                     name="service"
                                     required
                                 >
-                                    <option value="" disabled>Bir Seviye Seçin</option>
-                                    <option value="a1">A1</option>
-                                    <option value="a2">A2</option>
-                                    <option value="a1">B1</option>
-                                    <option value="a2">B2</option>
-                                    <option value="a1">C1</option>
-                                    <option value="a2">C2</option>
+                                    <option className="bg-transparent text-black" value="" disabled>Bir Seviye Seçin</option>
+                                    <option className="bg-transparent text-black" value="0">0</option>
+                                    <option className="bg-transparent text-black" value="a1">A1</option>
+                                    <option className="bg-transparent text-black" value="a2">A2</option>
+                                    <option className="bg-transparent text-black" value="a1">B1</option>
+                                    <option className="bg-transparent text-black" value="a2">B2</option>
+                                    <option className="bg-transparent text-black" value="a1">C1</option>
+                                    <option className="bg-transparent text-black" value="a2">C2</option>
                                 </select>
                             </div>
                             <div className="inputWrap mb-4">
@@ -120,7 +121,7 @@ const ContactUS = () => {
                                     placeholder="Your Message"
                                     onChange={(e) => setDescription(e.target.value)}
                                     value={description}
-                                    className="form-control border border-gray-300 rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-blue-400"
+                                    className="form-control border border-gray-300 dark:border-[#ffffff36] bg-transparent rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-blue-400"
                                     name="message"
                                     required
                                 />
