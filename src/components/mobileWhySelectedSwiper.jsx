@@ -4,11 +4,6 @@ import 'swiper/css';
 
 const slides = [
     {
-        img: "/teachers.png",
-        title: "Deneyimli öğretmenler",
-        description: "Her öğretmen özel ileri eğitim kurslarını tamamlamıştır. Saygıdeğer öğretmenlerimizin 9.0'a kadar IELTS puanı vardır.",
-    },
-    {
         img: "/support.svg",
         title: "Ücretsiz ikinci öğretmen",
         description: "Bir konuyu iyi anlayamadıysanız, ikinci öğretmenler her türlü sorunuzda size yardımcı olmak için her zaman orada olacaklardır.",
@@ -41,7 +36,7 @@ const MobileWhySelectedSwiper = () => {
             className="mySwiper"
         >
             {slides.map((slide, index) => (
-                <SwiperSlide key={index} className="flex flex-col items-center bg-[#f7f7f7] p-6 rounded-[1.3rem] dark:bg-activeGray dark:bg-opacity-10">
+                <SwiperSlide key={index} className="flex min-h-[250px] flex-col items-center bg-[#f7f7f7] p-6 rounded-[1.3rem] dark:bg-activeGray dark:bg-opacity-10">
                     <img src={slide.img} alt={slide.alt} className="w-16 mb-4" />
                     <div className="info text-center">
                         <h3 className="text-xl lg:text-3xl font-medium mb-2.5 dark:text-white">

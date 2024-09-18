@@ -22,10 +22,10 @@ function WhySelected() {
                 </div>
 
                 {/* Desktop uchun */}
-                <div className="hidden md:flex md:items-stretch gap-3">
+                <div className="hidden md:flex items-center justify-center gap-3">
                     <div data-aos="fade-right" delay="100" className="flex flex-col gap-3 max-w-[33%] aos-init aos-animate">
                         {/* Card 1 */}
-                        <div className="flex flex-col gap-3 ">
+                        <div className="flex flex-col gap-3 min-h-[280px]">
                             <div className="rounded-[1.3rem] flex-grow bg-[#f7f7f7] p-6 flex flex-col justify-between items-start dark:bg-activeGray dark:bg-opacity-10">
                                 <img
                                     src="/support.svg"
@@ -33,7 +33,7 @@ function WhySelected() {
                                     className="w-16"
                                 />
                                 <div className="info">
-                                    <h3 className="text-xl lg:text-3xl font-medium mt-10 mb-2.5 dark:text-white">
+                                    <h3 className="text-xl lg:text-3xl mt-4 font-medium mb-2.5 dark:text-white">
                                         Ücretsiz ikinci öğretmen
                                     </h3>
                                     <p className="text-sm lg:text-base opacity-50 dark:text-white">
@@ -44,7 +44,7 @@ function WhySelected() {
                         </div>
 
                         {/* Card 2 */}
-                        <div className="flex flex-col gap-3 ">
+                        <div className="flex flex-col gap-3 min-h-[280px]">
                             <div className="rounded-[1.3rem] flex-grow bg-[#f7f7f7] p-6 flex flex-col justify-between items-start dark:bg-activeGray dark:bg-opacity-10">
                                 <img
                                     src="/test.svg"
@@ -52,7 +52,7 @@ function WhySelected() {
                                     className="w-16"
                                 />
                                 <div className="info">
-                                    <h3 className="text-xl lg:text-3xl font-medium mt-10 mb-2.5 dark:text-white">
+                                    <h3 className="text-xl lg:text-3xl mt-4 font-medium mb-2.5 dark:text-white">
                                         Test Merkezi
                                     </h3>
                                     <p className="text-sm lg:text-base opacity-50 dark:text-white">
@@ -64,29 +64,10 @@ function WhySelected() {
                     </div>
 
 
-
-                    {/* Card 3 */}
-                    <div className="flex flex-col gap-3">
-                        <div className="rounded-[1.3rem] flex-grow bg-[#f7f7f7] p-6 flex flex-col justify-between items-start dark:bg-activeGray dark:bg-opacity-10  aos-init aos-animate">
-                            <img
-                                src="/teachers.png"
-                                sizes="(max-width: 768px) 150px, 300px"
-                                className="md:w-[90%] md:mx-auto w-16"
-                            />
-                            <div className="info">
-                                <h3 className="text-xl lg:text-3xl font-medium mt-4 mb-2.5 dark:text-white">
-                                    Deneyimli öğretmenler
-                                </h3>
-                                <p className="text-sm lg:text-base opacity-50 dark:text-white">
-                                    Her öğretmen özel ileri eğitim kurslarını tamamlamıştır. Saygıdeğer öğretmenlerimizin 9.0'a kadar IELTS puanı vardır.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
                     <div data-aos="fade-left" delay="100" className="flex flex-col gap-3 max-w-[33%] aos-init aos-animate">
 
                         {/* Card 4 */}
-                        <div className="flex flex-col gap-3 ">
+                        <div className="flex flex-col gap-3 min-h-[280px]">
                             <div className="rounded-[1.3rem] flex-grow bg-[#f7f7f7] p-6 flex flex-col justify-between items-start dark:bg-activeGray dark:bg-opacity-10">
                                 <img
                                     src="/event.svg"
@@ -105,7 +86,7 @@ function WhySelected() {
                         </div>
 
                         {/* Card 5 */}
-                        <div className="flex flex-col gap-3 ">
+                        <div className="flex flex-col gap-3 min-h-[280px]">
                             <div className="rounded-[1.3rem] flex-grow bg-[#f7f7f7] p-6 flex flex-col justify-between items-start dark:bg-activeGray dark:bg-opacity-10">
                                 <img
                                     src="/co-working.svg"

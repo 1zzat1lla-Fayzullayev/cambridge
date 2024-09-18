@@ -44,7 +44,7 @@ function App() {
       <Header />
       <Cards />
       <WhySelected />
-      <SecondSwiper />
+      {/* <SecondSwiper /> */}
       <Teachers />
       <Footer theme={theme} setTheme={setTheme} />
     </>
