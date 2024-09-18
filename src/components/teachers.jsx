@@ -34,7 +34,7 @@ function Teachers() {
             score: 'IELTS 8.0',
             imageSrc: 'https://app.cambridgeonline.uz/storage/site/bf0451f1-6415-4856-aca2-ad92b367dd30_thumb.png',
             videoSrc: 'https://app.cambridgeonline.uz/storage/site/video1.mp4',
-            description: 'Мой интерес к преподаванию английского языка возник еще в школьные годы, и я решил посвятить свою жизнь этой сфере. Моя главная цель в работе - раскрыть потенциал студентов и заинтересовать их не только к английскому языку, но и к другими областям.',
+            description: 'İngilizce öğretmeye olan ilgim okul yıllarımda ortaya çıktı ve hayatımı bu alana adamaya karar verdim. Çalışmalarımdaki temel amacım öğrencilerin potansiyelini ortaya çıkarmak ve onların sadece İngilizceye değil diğer alanlara da ilgi duymasını sağlamaktır.',
             vdPoster: "https://app.cambridgeonline.uz/storage/site/e3426d88-7ca6-40b5-846e-aac1bbb2d176_poster.png"
         },
         {
@@ -42,7 +42,7 @@ function Teachers() {
             score: 'IELTS 8.5',
             imageSrc: 'https://app.cambridgeonline.uz/storage/site/e52fa4ab-25a6-457e-85ee-f06330e647e3_thumb.png',
             videoSrc: 'https://app.cambridgeonline.uz/storage/site/bd4cba71-5b6e-4fea-b927-045a01566ca5.mp4',
-            description: 'Mr. Sardor - я выиграл награду "Инструктор IELTS 2023 года". Моя главная цель - помочь как можно большему количеству студентов получить высокие баллы (7.0+). Если вы хотите улучшить свои навыки writing и reading, вы не ошибетесь, выбрав меня.',
+            description: 'Bay Sardor - 2023 Yılının IELTS Eğitmeni ödülünü kazandım. Ana hedefim mümkün olduğu kadar çok öğrencinin yüksek puanlar (7.0+) almasına yardımcı olmaktır. Yazma ve okuma becerilerinizi geliştirmek istiyorsanız benimle yanlış yapmış olmazsınız.',
             vdPoster: "https://app.cambridgeonline.uz/storage/site/f297e4c5-256e-46cb-838e-84932efc98b8_poster.png"
         },
         {
@@ -50,7 +50,7 @@ function Teachers() {
             score: 'IELTS 8.0',
             imageSrc: 'https://app.cambridgeonline.uz/storage/site/13500b16-07b3-46c5-b2c2-4c2927e985a7_thumb.png',
             videoSrc: 'https://app.cambridgeonline.uz/storage/site/f595c8d3-8c01-42cc-b90c.mp4',
-            description: 'Будучи ведущим преподавателем с 8-летним опытом работы в престижных академических учреждениях, я успешно обучаю студентов из различных социальных и культурных слоев. Говорят, что я отличный собеседник и искренний человек . Люблю путешествовать и проводить время со своими студентами.',
+            description: 'Prestijli akademik kurumlarda 8 yıllık deneyime sahip lider bir öğretmen olarak, farklı sosyal ve kültürel kökenden gelen öğrencilere başarılı bir şekilde ders verdim. Mükemmel bir konuşmacı ve samimi bir insan olduğumu söylüyorlar. Seyahat etmeyi ve öğrencilerimle vakit geçirmeyi seviyorum.',
             vdPoster: "https://app.cambridgeonline.uz/storage/site/53b14387-6b45-48ae-8d93-292e9542e645_poster.png"
         },
         {
@@ -58,7 +58,7 @@ function Teachers() {
             score: 'IELTS 8.0',
             imageSrc: 'https://app.cambridgeonline.uz/storage/site/ff755a4e-26c0-4ccb-b383-8b138528af7e_thumb.png',
             videoSrc: 'https://app.cambridgeonline.uz/storage/site/a8fdav-10wf-123aa-ali.mp4',
-            description: 'Я целеустремленный человек, который постоянно стремится к самосовершенствованию и старается поддерживать у своих студентов позитивный настрой. Я делюсь со своими студентами опытом, приобретенным за 10 лет за границей. Настроение 24/7 позитивное.',
+            description: 'Sürekli kendini geliştirmek için çabalayan, öğrencilerimde olumlu bir tutum sergilemeye çalışan, hedef odaklı bir insanım. 10 yılı aşkın süredir yurt dışında edindiğim tecrübeleri öğrencilerimle paylaşıyorum. Olumlu ruh hali 7/24.',
             vdPoster: "https://app.cambridgeonline.uz/storage/site/fd730e2b-2084-480b-b700-46595c00b7d1_poster.png"
         },
         {
@@ -66,7 +66,7 @@ function Teachers() {
             score: 'IELTS 8.5',
             imageSrc: 'https://app.cambridgeonline.uz/storage/site/4c578c44-d1f7-487b-a7c6-d29eb2ea2220_thumb.png',
             videoSrc: 'https://app.cambridgeonline.uz/storage/site/1904e61e-10fb-45d8-b30d-0e7248f7dc90.mp4',
-            description: 'Я готов сделать все, чтобы мои студенты стали самыми сильными. Я очень интересуюсь настольным теннисом и чтением. Считаю, что достижения моих студентов - это результат моей строгости и профессионализма.',
+            description: 'Öğrencilerimin en güçlü olması için her şeyi yapmaya hazırım. Masa tenisine ve okumaya çok ilgim var. Öğrencilerimin başarılarının titizliğimin ve profesyonelliğimin sonucu olduğuna inanıyorum.',
             vdPoster: "https://app.cambridgeonline.uz/storage/site/92c3374b-46f2-4f9b-ba26-407f53209c67_poster.png"
         },
     ];
@@ -78,10 +78,10 @@ function Teachers() {
         <Wrapper>
             <div className="mt-[150px]">
                 <h2 className="text-mainBlue text-4xl font-bold mb-2 sm:text-center xl:text-5xl dark:text-white">
-                    Наши учителя
+                    Öğretmenlerimiz
                 </h2>
                 <p className="text-mainBlue text-base opacity-50 mb-10 sm:text-center md:text-lg xl:text-xl max-w-2xl mx-auto dark:text-white dark:opacity-50">
-                    Настоящие герои, вы можете познакомиться с ними ниже
+                    Gerçek kahramanlar, onlarla aşağıda tanışabilirsiniz
                 </p>
                 <div className='lg:flex lg:gap-x-5'>
                     <div className="lg:hidden w-full mb-5">

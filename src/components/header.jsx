@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Wrapper from "../layout/wrapper";
 import { useEffect } from "react";
 import AOS from "aos";
@@ -17,10 +18,10 @@ function Header() {
                     className="md:w-[50%]"
                 >
                     <h1 className="text-[#050a41] dark:text-white font-bold text-5xl lg:text-6xl xl:text-7xl text-start">
-                        Мы не просто обучаем английскому, мы меняем жизни людей!
+                        Biz sadece İngilizce öğretmiyoruz, insanların hayatlarını değiştiriyoruz!
                     </h1>
                     <p className="py-5 text-base lg:text-lg text-[#050a41] dark:text-white dark:opacity-50 text-start">
-                        За 9 лет Cambridge способствовал изменению жизни более 50 000 молодых людей
+                        Cambridge 9 yılı aşkın süredir 50.000'den fazla gencin hayatını değiştirmeye yardımcı oldu
                     </p>
                     <a
                         href="#"
@@ -31,7 +32,7 @@ function Header() {
                             className="flex header-btn items-center justify-center px-8 py-4 rounded-2xl duration-200 blue-gradient w-full max-w-max"
                         >
                             <span className="text-base lg:text-lg text-white">
-                                Запишитесь на первый урок
+                                İlk dersinize kaydolun
                             </span>
                             <img
                                 src="/stars.svg"

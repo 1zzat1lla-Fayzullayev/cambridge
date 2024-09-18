@@ -9,10 +9,10 @@ function WhySelected() {
             <section className="why wrapper-padding">
                 <div className="pt-10 text-center">
                     <h2 className="text-[#050a41] text-4xl font-bold mb-2 sm:text-center xl:text-5xl dark:text-white">
-                        Почему люди выбирают нас?
+                        İnsanlar neden bizi seçiyor?
                     </h2>
                     <p className="text-[#050a41] text-base opacity-50 mb-10 sm:text-center md:text-lg xl:text-xl max-w-2xl mx-auto dark:text-white dark:opacity-50">
-                        Центр изучения английского языка Cambridge занимается обучением молодежи английскому языку с 2014 года и на данный момент имеет 14 филиалов
+                        Cambridge English Language Center, 2014'ten bu yana gençlere İngilizce öğretiyor ve şu anda 14 şubesi var.
                     </p>
                 </div>
 
@@ -34,10 +34,10 @@ function WhySelected() {
                                 />
                                 <div className="info">
                                     <h3 className="text-xl lg:text-3xl font-medium mt-10 mb-2.5 dark:text-white">
-                                        Бесплатный второй учитель
+                                        Ücretsiz ikinci öğretmen
                                     </h3>
                                     <p className="text-sm lg:text-base opacity-50 dark:text-white">
-                                        Если вы не смогли хорошо усвоить тему, вторые учителя всегда будут рядом и помогут вам с любыми вопросами.
+                                        Bir konuyu iyi anlayamadıysanız, ikinci öğretmenler her türlü sorunuzda size yardımcı olmak için her zaman orada olacaklardır.
                                     </p>
                                 </div>
                             </div>
@@ -53,10 +53,10 @@ function WhySelected() {
                                 />
                                 <div className="info">
                                     <h3 className="text-xl lg:text-3xl font-medium mt-10 mb-2.5 dark:text-white">
-                                        Тестовый Центр
+                                        Test Merkezi
                                     </h3>
                                     <p className="text-sm lg:text-base opacity-50 dark:text-white">
-                                        У нас есть отдельный тестовый центр, где вы можете сдать как 'MOCK' экзамены, так и настоящий экзамен IELTS. Вы правильно прочитали, вы будете сдавать настоящий экзамен IELTS в Cambridge.
+                                        Hem 'MOCK' sınavlarına hem de gerçek IELTS sınavına girebileceğiniz ayrı bir test merkezimiz bulunmaktadır. Doğru okudunuz, gerçek IELTS sınavına Cambridge'de gireceksiniz.
                                     </p>
                                 </div>
                             </div>
@@ -75,10 +75,10 @@ function WhySelected() {
                             />
                             <div className="info">
                                 <h3 className="text-xl lg:text-3xl font-medium mt-4 mb-2.5 dark:text-white">
-                                    Опытные преподаватели
+                                    Deneyimli öğretmenler
                                 </h3>
                                 <p className="text-sm lg:text-base opacity-50 dark:text-white">
-                                    Каждый преподаватель прошел специальные курсы повышения квалификации. Наши уважаемые преподаватели имеют результаты IELTS до 9.0.
+                                    Her öğretmen özel ileri eğitim kurslarını tamamlamıştır. Saygıdeğer öğretmenlerimizin 9.0'a kadar IELTS puanı vardır.
                                 </p>
                             </div>
                         </div>
@@ -95,10 +95,10 @@ function WhySelected() {
                                 />
                                 <div className="info">
                                     <h3 className="text-xl lg:text-3xl font-medium mt-4 mb-2.5 dark:text-white">
-                                        Бесплатные мероприятия
+                                        Ücretsiz etkinlikler
                                     </h3>
                                     <p className="text-sm lg:text-base opacity-50 dark:text-white">
-                                        Теннис, гольф, мафия, кино, общение со знаменитостями и незабываемые поездки – все это совершенно бесплатно для студентов Cambridge.
+                                        Tenis, golf, mafya, sinema, ünlülerle tanışma ve unutulmaz geziler; bunların hepsi Cambridge öğrencileri için tamamen ücretsizdir.
                                     </p>
                                 </div>
                             </div>
@@ -114,10 +114,10 @@ function WhySelected() {
                                 />
                                 <div className="info">
                                     <h3 className="text-xl lg:text-3xl font-medium mt-4 mb-2.5 dark:text-white">
-                                        Co-working зоны
+                                        Ortak çalışma bölgeleri
                                     </h3>
                                     <p className="text-sm lg:text-base opacity-50 dark:text-white">
-                                        В каждом филиале нашего учебного центра есть специальные co-working зоны для наших учеников. Здесь вы можете свободно заниматься английским вне уроков или проходить занятия с дополнительным преподавателем.
+                                        Eğitim merkezimizin her şubesinde öğrencilerimize özel ortak çalışma alanları bulunmaktadır. Burada sınıf dışında özgürce İngilizce çalışabilir veya ek bir öğretmenden ders alabilirsiniz.
                                     </p>
                                 </div>
                             </div>

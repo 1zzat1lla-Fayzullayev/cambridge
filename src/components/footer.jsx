@@ -19,35 +19,35 @@ function Footer({ theme, setTheme }) {
                                     />
                                 </a>
                                 <div className="max-w-sm md:w-xs md:flex-grow">
-                                    <h2 className="text-[1.500rem] lg:text-[1.875rem]">Cambridge Learning Center</h2>
+                                    <h2 className="text-[1.500rem] lg:text-[1.875rem]">Cambridge Öğrenme Merkezi</h2>
                                     <div className="flex flex-wrap gap-y-4">
                                         <a href="#" className="text-[1.125rem] text-[#85888E] flex items-center w-1/2">
-                                            Учителя
+                                            Öğretmenler
                                             <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-v-ae12cf4f=""><g opacity="0.5" clipPath="url(#clip0_766_3224)" data-v-ae12cf4f=""><path d="M12.75 5.25L5.25 12.75" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" data-v-ae12cf4f=""></path><path d="M6 5.25H12.75V12" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" data-v-ae12cf4f=""></path></g><defs data-v-ae12cf4f=""><clipPath id="clip0_766_3224" data-v-ae12cf4f=""><rect width="18" height="18" fill="white" data-v-ae12cf4f=""></rect></clipPath></defs></svg>
                                         </a>
                                         <a href="#" className="text-[1.125rem] text-[#85888E] flex items-center w-1/2">
-                                            Курсы
+                                            Kurslar
                                             <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-v-ae12cf4f=""><g opacity="0.5" clipPath="url(#clip0_766_3224)" data-v-ae12cf4f=""><path d="M12.75 5.25L5.25 12.75" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" data-v-ae12cf4f=""></path><path d="M6 5.25H12.75V12" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" data-v-ae12cf4f=""></path></g><defs data-v-ae12cf4f=""><clipPath id="clip0_766_3224" data-v-ae12cf4f=""><rect width="18" height="18" fill="white" data-v-ae12cf4f=""></rect></clipPath></defs></svg>
                                         </a>
                                         <a href="#" className="text-[1.125rem] text-[#85888E] flex items-center w-1/2">
-                                            Филиалы
+                                            Şubeler
                                             <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-v-ae12cf4f=""><g opacity="0.5" clipPath="url(#clip0_766_3224)" data-v-ae12cf4f=""><path d="M12.75 5.25L5.25 12.75" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" data-v-ae12cf4f=""></path><path d="M6 5.25H12.75V12" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" data-v-ae12cf4f=""></path></g><defs data-v-ae12cf4f=""><clipPath id="clip0_766_3224" data-v-ae12cf4f=""><rect width="18" height="18" fill="white" data-v-ae12cf4f=""></rect></clipPath></defs></svg>
                                         </a>
                                         <a href="#" className="text-[1.125rem] text-[#85888E] flex items-center w-1/2">
-                                            Сертификат
+                                            Sertifika
                                             <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-v-ae12cf4f=""><g opacity="0.5" clipPath="url(#clip0_766_3224)" data-v-ae12cf4f=""><path d="M12.75 5.25L5.25 12.75" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" data-v-ae12cf4f=""></path><path d="M6 5.25H12.75V12" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" data-v-ae12cf4f=""></path></g><defs data-v-ae12cf4f=""><clipPath id="clip0_766_3224" data-v-ae12cf4f=""><rect width="18" height="18" fill="white" data-v-ae12cf4f=""></rect></clipPath></defs></svg>
                                         </a>
                                     </div>
                                 </div>
                                 <div className="sm:w-1/3 sm:max-w-[11rem]">
-                                    <h2 className="text-[1.500rem] lg:text-[1.875rem]">Контакты</h2>
+                                    <h2 className="text-[1.500rem] lg:text-[1.875rem]">Kişiler</h2>
                                     <a aria-label="Call to Cambridge LC" href="#" className="flex items-center gap-x-2 [text-[#85888E]">
                                         <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-v-ae12cf4f=""><g opacity="0.5" data-v-ae12cf4f=""><path d="M8.2875 11.2125L6.9 12.6C6.6075 12.8925 6.1425 12.8925 5.8425 12.6075C5.76 12.525 5.6775 12.45 5.595 12.3675C4.8225 11.5875 4.125 10.77 3.5025 9.915C2.8875 9.06 2.3925 8.205 2.0325 7.3575C1.68 6.5025 1.5 5.685 1.5 4.905C1.5 4.395 1.59 3.9075 1.77 3.4575C1.95 3 2.235 2.58 2.6325 2.205C3.1125 1.7325 3.6375 1.5 4.1925 1.5C4.4025 1.5 4.6125 1.545 4.8 1.635C4.995 1.725 5.1675 1.86 5.3025 2.055L7.0425 4.5075C7.1775 4.695 7.275 4.8675 7.3425 5.0325C7.41 5.19 7.4475 5.3475 7.4475 5.49C7.4475 5.67 7.395 5.85 7.29 6.0225C7.1925 6.195 7.05 6.375 6.87 6.555L6.3 7.1475C6.2175 7.23 6.18 7.3275 6.18 7.4475C6.18 7.5075 6.1875 7.56 6.2025 7.62C6.225 7.68 6.2475 7.725 6.2625 7.77C6.3975 8.0175 6.63 8.34 6.96 8.73C7.2975 9.12 7.6575 9.5175 8.0475 9.915C8.1225 9.99 8.205 10.065 8.28 10.14C8.58 10.4325 8.5875 10.9125 8.2875 11.2125Z" fill="white" data-v-ae12cf4f=""></path><path d="M16.4767 13.7478C16.4767 13.9578 16.4392 14.1753 16.3642 14.3853C16.3417 14.4453 16.3192 14.5053 16.2892 14.5653C16.1617 14.8353 15.9967 15.0903 15.7792 15.3303C15.4117 15.7353 15.0067 16.0278 14.5492 16.2153C14.5417 16.2153 14.5342 16.2228 14.5267 16.2228C14.0842 16.4028 13.6042 16.5003 13.0867 16.5003C12.3217 16.5003 11.5042 16.3203 10.6417 15.9528C9.77922 15.5853 8.91672 15.0903 8.06172 14.4678C7.76922 14.2503 7.47672 14.0328 7.19922 13.8003L9.65172 11.3478C9.86172 11.5053 10.0492 11.6253 10.2067 11.7078C10.2442 11.7228 10.2892 11.7453 10.3417 11.7678C10.4017 11.7903 10.4617 11.7978 10.5292 11.7978C10.6567 11.7978 10.7542 11.7528 10.8367 11.6703L11.4067 11.1078C11.5942 10.9203 11.7742 10.7778 11.9467 10.6878C12.1192 10.5828 12.2917 10.5303 12.4792 10.5303C12.6217 10.5303 12.7717 10.5603 12.9367 10.6278C13.1017 10.6953 13.2742 10.7928 13.4617 10.9203L15.9442 12.6828C16.1392 12.8178 16.2742 12.9753 16.3567 13.1628C16.4317 13.3503 16.4767 13.5378 16.4767 13.7478Z" fill="white" data-v-ae12cf4f=""></path></g></svg>
-                                        +998 78 777 77 74
+                                        +998(33) 469 11 01
                                     </a>
                                 </div>
                                 <div className="sm:w-1/2 md:w-[12rem] md:max-w-[15rem] md:flex-grow">
-                                    <h2 className="text-[1.500rem] lg:text-[1.875rem]">Социальные сети</h2>
+                                    <h2 className="text-[1.500rem] lg:text-[1.875rem]">Sosyal medya</h2>
                                     <ul className="flex gap-x-4 mb-5">
                                         <li>
                                             <a aria-label="Watch us on YouTube" target="_blank" href="#">
@@ -67,7 +67,7 @@ function Footer({ theme, setTheme }) {
                                     </ul>
                                     <a href="#" target="_blank">
                                         <button aria-label="Base card" className="flex items-center justify-center px-8 py-4 rounded-2xl duration-200 blue-gradient w-full">
-                                            <span className="text-base lg:text-lg text-white">Оплатить онлайн</span>
+                                            <span className="text-base lg:text-lg text-white">Çevrimiçi ödeme yapın</span>
                                         </button>
                                     </a>
                                 </div>
@@ -78,9 +78,9 @@ function Footer({ theme, setTheme }) {
                     <div className="footer-bottom border-t border-[#3b4155] w-full">
                         <Wrapper>
                             <div className="flex items-center justify-between flex-wrap py-6 gap-4">
-                                <p className="text-[text-[#85888E]]">Copyright © 2024 Cambridge LLC. All Rights Reserved</p>
+                                <p className="text-[text-[#85888E]]">Copyright © 2024 Turkchasoati</p>
                                 <a href="#" className="text-[text-[#85888E]] inline-flex items-center">
-                                    Оферта
+                                Teklif
                                     <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" data-v-ae12cf4f=""><g opacity="0.5" clipPath="url(#clip0_766_3224)" data-v-ae12cf4f=""><path d="M12.75 5.25L5.25 12.75" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" data-v-ae12cf4f=""></path><path d="M6 5.25H12.75V12" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" data-v-ae12cf4f=""></path></g><defs data-v-ae12cf4f=""><clipPath id="clip0_766_3224" data-v-ae12cf4f=""><rect width="18" height="18" fill="white" data-v-ae12cf4f=""></rect></clipPath></defs></svg>
                                 </a>
                             </div>

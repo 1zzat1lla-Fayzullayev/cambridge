@@ -31,18 +31,22 @@ function App() {
 
   if (loading) {
     return (
-      <div className="flex flex-col items-center justify-center fixed left-0 top-0 h-full w-full z-[1000] bg-white overflow-hidden"><img src="/loading-logo.svg" className="infinite-scale w-[80px] h-[80px]" alt="Loading..." /></div>
+      <div className="flex flex-col items-center justify-center fixed left-0 top-0 h-full w-full z-[1000] bg-white overflow-hidden"> <img
+        src={theme === 'light' ? "/turkchasoati1.png" : "/turkchasoati2.png"}
+        alt="Logo"
+        className='w-36 lg:w-44'
+      /></div>
     )
   }
   return (
     <>
-      <Navbar theme={theme} setTheme={setTheme}/>
+      <Navbar theme={theme} setTheme={setTheme} />
       <Header />
       <Cards />
       <WhySelected />
       <SecondSwiper />
       <Teachers />
-      <Footer theme={theme} setTheme={setTheme}/>
+      <Footer theme={theme} setTheme={setTheme} />
     </>
   )
 }

@@ -1,37 +1,32 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 // import { Navigation, Pagination } from 'swiper/modules';
-import 'swiper/css'; 
+import 'swiper/css';
 
 const slides = [
     {
         img: "/teachers.png",
-        alt: "Опытные преподаватели",
-        title: "Опытные преподаватели",
-        description: "Каждый преподаватель прошел специальные курсы повышения квалификации. Наши уважаемые преподаватели имеют результаты IELTS до 9.0.",
+        title: "Deneyimli öğretmenler",
+        description: "Her öğretmen özel ileri eğitim kurslarını tamamlamıştır. Saygıdeğer öğretmenlerimizin 9.0'a kadar IELTS puanı vardır.",
     },
     {
         img: "/support.svg",
-        alt: "Бесплатный второй учитель",
-        title: "Бесплатный второй учитель",
-        description: "Если вы не смогли хорошо усвоить тему, вторые учителя всегда будут рядом и помогут вам с любыми вопросами.",
+        title: "Ücretsiz ikinci öğretmen",
+        description: "Bir konuyu iyi anlayamadıysanız, ikinci öğretmenler her türlü sorunuzda size yardımcı olmak için her zaman orada olacaklardır.",
     },
     {
         img: "/test.svg",
-        alt: "Тестовый Центр",
-        title: "Тестовый Центр",
-        description: "У нас есть отдельный тестовый центр, где вы можете сдать как 'MOCK' экзамены, так и настоящий экзамен IELTS. Вы правильно прочитали, вы будете сдавать настоящий экзамен IELTS в Cambridge.",
+        title: "Test Merkezi",
+        description: "Hem 'MOCK' sınavlarına hem de gerçek IELTS sınavına girebileceğiniz ayrı bir test merkezimiz bulunmaktadır. Doğru okudunuz, gerçek IELTS sınavına Cambridge'de gireceksiniz.",
     },
     {
         img: "/event.svg",
-        alt: "Бесплатные мероприятия",
-        title: "Бесплатные мероприятия",
-        description: "Теннис, гольф, мафия, кино, общение со знаменитостями и незабываемые поездки – все это совершенно бесплатно для студентов Cambridge.",
+        title: "Ücretsiz etkinlikler",
+        description: "Tenis, golf, mafya, sinema, ünlülerle tanışma ve unutulmaz geziler; bunların hepsi Cambridge öğrencileri için tamamen ücretsizdir.",
     },
     {
         img: "/co-working.svg",
-        alt: "Co-working зоны",
-        title: "Co-working зоны",
-        description: "В каждом филиале нашего учебного центра есть специальные co-working зоны для наших учеников. Здесь вы можете свободно заниматься английским вне уроков или проходить занятия с дополнительным преподавателем.",
+        title: "Ortak çalışma bölgeleri",
+        description: "Eğitim merkezimizin her şubesinde öğrencilerimize özel ortak çalışma alanları bulunmaktadır. Burada sınıf dışında özgürce İngilizce çalışabilir veya ek bir öğretmenden ders alabilirsiniz.",
     },
 ];
 
