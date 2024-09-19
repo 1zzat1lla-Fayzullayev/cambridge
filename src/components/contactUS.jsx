@@ -19,7 +19,9 @@ const ContactUS = () => {
     const USERID2 = "-1002148619946";
 
     const encodeText = (text) => encodeURIComponent(text);
+ 
 
+    
     const sendFeedback = async (e) => {
         e.preventDefault();
         setIsLoading(true);

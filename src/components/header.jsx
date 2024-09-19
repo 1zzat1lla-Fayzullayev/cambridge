@@ -18,10 +18,10 @@ function Header() {
                     className="md:w-[50%]"
                 >
                     <h1 className="text-[#050a41] dark:text-white font-bold text-5xl lg:text-6xl xl:text-7xl text-start">
-                        Biz sadece İngilizce öğretmiyoruz, insanların hayatlarını değiştiriyoruz!
+                        Türkçe öğrenin
                     </h1>
                     <p className="py-5 text-base lg:text-lg text-[#050a41] dark:text-white dark:opacity-50 text-start">
-                        Cambridge 9 yılı aşkın süredir 50.000'den fazla gencin hayatını değiştirmeye yardımcı oldu
+                        Türk Dünyasının Kapılarını Açın…
                     </p>
                     <a
                         href="#"

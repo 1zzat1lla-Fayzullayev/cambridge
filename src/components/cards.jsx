@@ -24,7 +24,7 @@ function Cards() {
                         9+
                     </p>
                     <p className="card-text opacity-50 text-base xl:text-lg mt-1 dark:text-white text-mainBlue">
-                        yılların tecrübesi
+                        Seyahat İçin Türkçe
                     </p>
                 </div>
 
@@ -41,7 +41,7 @@ function Cards() {
                         50,000+
                     </p>
                     <p className="card-text opacity-50 text-base xl:text-lg mt-1 dark:text-white text-mainBlue">
-                        İngilizce öğrenen gençler
+                        Sertifika İçin Türkçe
                     </p>
                 </div>
 
@@ -58,7 +58,7 @@ function Cards() {
                         14
                     </p>
                     <p className="card-text opacity-50 text-base xl:text-lg mt-1 dark:text-white text-mainBlue">
-                        Özbekistan genelindeki şube sayısı
+                        İş İçin Türkçe
                     </p>
                 </div>
 
@@ -75,7 +75,7 @@ function Cards() {
                         500+
                     </p>
                     <p className="card-text opacity-50 text-base xl:text-lg mt-1 dark:text-white text-mainBlue">
-                        Cambridge çalışanlarının sayısı
+                        Yüksek Lisans ve Doktora için
                     </p>
                 </div>
             </div>

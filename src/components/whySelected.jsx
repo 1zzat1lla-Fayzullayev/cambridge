@@ -9,10 +9,10 @@ function WhySelected() {
             <section className="why wrapper-padding">
                 <div className="pt-10 text-center">
                     <h2 className="text-[#050a41] text-4xl font-bold mb-2 sm:text-center xl:text-5xl dark:text-white">
-                        İnsanlar neden bizi seçiyor?
+                        İnsanlar bizi neden tercih ediyor ?
                     </h2>
                     <p className="text-[#050a41] text-base opacity-50 mb-10 sm:text-center md:text-lg xl:text-xl max-w-2xl mx-auto dark:text-white dark:opacity-50">
-                        Cambridge English Language Center, 2014'ten bu yana gençlere İngilizce öğretiyor ve şu anda 14 şubesi var.
+                        {/* Cambridge English Language Center, 2014'ten bu yana gençlere İngilizce öğretiyor ve şu anda 14 şubesi var. */}
                     </p>
                 </div>
 
@@ -25,7 +25,7 @@ function WhySelected() {
                 <div className="hidden md:flex items-center justify-center gap-3">
                     <div data-aos="fade-right" delay="100" className="flex flex-col gap-3 max-w-[33%] aos-init aos-animate">
                         {/* Card 1 */}
-                        <div className="flex flex-col gap-3 min-h-[280px]">
+                        <div className="flex flex-col gap-3 min-h-[200px]">
                             <div className="rounded-[1.3rem] flex-grow bg-[#f7f7f7] p-6 flex flex-col justify-between items-start dark:bg-activeGray dark:bg-opacity-10">
                                 <img
                                     src="/support.svg"
@@ -34,17 +34,18 @@ function WhySelected() {
                                 />
                                 <div className="info">
                                     <h3 className="text-xl lg:text-3xl mt-4 font-medium mb-2.5 dark:text-white">
-                                        Ücretsiz ikinci öğretmen
+                                        {/* 1- Tecrübeli ve Profesyonel Türk Öğretmenler */}
                                     </h3>
                                     <p className="text-sm lg:text-base opacity-50 dark:text-white">
-                                        Bir konuyu iyi anlayamadıysanız, ikinci öğretmenler her türlü sorunuzda size yardımcı olmak için her zaman orada olacaklardır.
+                                        {/* Bir konuyu iyi anlayamadıysanız, ikinci öğretmenler her türlü sorunuzda size yardımcı olmak için her zaman orada olacaklardır. */}
+                                        1- Tecrübeli ve Profesyonel Türk Öğretmenler
                                     </p>
                                 </div>
                             </div>
                         </div>
 
                         {/* Card 2 */}
-                        <div className="flex flex-col gap-3 min-h-[280px]">
+                        <div className="flex flex-col gap-3 min-h-[200px]">
                             <div className="rounded-[1.3rem] flex-grow bg-[#f7f7f7] p-6 flex flex-col justify-between items-start dark:bg-activeGray dark:bg-opacity-10">
                                 <img
                                     src="/test.svg"
@@ -53,10 +54,11 @@ function WhySelected() {
                                 />
                                 <div className="info">
                                     <h3 className="text-xl lg:text-3xl mt-4 font-medium mb-2.5 dark:text-white">
-                                        Test Merkezi
+                                        {/* 2- Gerçek Sınavlara Yakın Test Hizmetleri */}
                                     </h3>
                                     <p className="text-sm lg:text-base opacity-50 dark:text-white">
-                                        Hem 'MOCK' sınavlarına hem de gerçek IELTS sınavına girebileceğiniz ayrı bir test merkezimiz bulunmaktadır. Doğru okudunuz, gerçek IELTS sınavına Cambridge'de gireceksiniz.
+                                        {/* Hem 'MOCK' sınavlarına hem de gerçek IELTS sınavına girebileceğiniz ayrı bir test merkezimiz bulunmaktadır. Doğru okudunuz, gerçek IELTS sınavına Cambridge'de gireceksiniz. */}
+                                        2- Gerçek Sınavlara Yakın Test Hizmetleri
                                     </p>
                                 </div>
                             </div>
@@ -67,7 +69,7 @@ function WhySelected() {
                     <div data-aos="fade-left" delay="100" className="flex flex-col gap-3 max-w-[33%] aos-init aos-animate">
 
                         {/* Card 4 */}
-                        <div className="flex flex-col gap-3 min-h-[280px]">
+                        <div className="flex flex-col gap-3 min-h-[200px]">
                             <div className="rounded-[1.3rem] flex-grow bg-[#f7f7f7] p-6 flex flex-col justify-between items-start dark:bg-activeGray dark:bg-opacity-10">
                                 <img
                                     src="/event.svg"
@@ -76,17 +78,18 @@ function WhySelected() {
                                 />
                                 <div className="info">
                                     <h3 className="text-xl lg:text-3xl font-medium mt-4 mb-2.5 dark:text-white">
-                                        Ücretsiz etkinlikler
+                                        {/* 3-Ücretsiz Etkinlikler */}
                                     </h3>
                                     <p className="text-sm lg:text-base opacity-50 dark:text-white">
-                                        Tenis, golf, mafya, sinema, ünlülerle tanışma ve unutulmaz geziler; bunların hepsi Cambridge öğrencileri için tamamen ücretsizdir.
+                                        {/* Tenis, golf, mafya, sinema, ünlülerle tanışma ve unutulmaz geziler; bunların hepsi Cambridge öğrencileri için tamamen ücretsizdir. */}
+                                        3-Ücretsiz Etkinlikler
                                     </p>
                                 </div>
                             </div>
                         </div>
 
                         {/* Card 5 */}
-                        <div className="flex flex-col gap-3 min-h-[280px]">
+                        <div className="flex flex-col gap-3 min-h-[200px]">
                             <div className="rounded-[1.3rem] flex-grow bg-[#f7f7f7] p-6 flex flex-col justify-between items-start dark:bg-activeGray dark:bg-opacity-10">
                                 <img
                                     src="/co-working.svg"
@@ -95,10 +98,11 @@ function WhySelected() {
                                 />
                                 <div className="info">
                                     <h3 className="text-xl lg:text-3xl font-medium mt-4 mb-2.5 dark:text-white">
-                                        Ortak çalışma bölgeleri
+                                        {/* 4-Öğrenciye Özel Kariyer Danışmanlığı ve Gelişim Programı Tasarlama */}
                                     </h3>
                                     <p className="text-sm lg:text-base opacity-50 dark:text-white">
-                                        Eğitim merkezimizin her şubesinde öğrencilerimize özel ortak çalışma alanları bulunmaktadır. Burada sınıf dışında özgürce İngilizce çalışabilir veya ek bir öğretmenden ders alabilirsiniz.
+                                        {/* Eğitim merkezimizin her şubesinde öğrencilerimize özel ortak çalışma alanları bulunmaktadır. Burada sınıf dışında özgürce İngilizce çalışabilir veya ek bir öğretmenden ders alabilirsiniz. */}
+                                        4-Öğrenciye Özel Kariyer Danışmanlığı ve Gelişim Programı Tasarlama
                                     </p>
                                 </div>
                             </div>
