@@ -49,7 +49,7 @@ function Navbar({ theme, setTheme }) {
                         />
                         <ul className="lg:flex hidden items-center gap-[20px]">
                             <li><a href="#" className='text-base text-mainBlue flex cursor-pointer dark:text-white dark:opacity-50'>Hakkımızda</a></li>
-                            <li><a href="#" className='text-base text-mainBlue flex cursor-pointer dark:text-white dark:opacity-50'>Hizmetler</a></li>
+                            <li><a href="#" className='text-base text-mainBlue flex cursor-pointer dark:text-white dark:opacity-50'>Gruplar</a></li>
                             <li><a href="#" className='text-base text-mainBlue flex cursor-pointer dark:text-white dark:opacity-50'>Öğretmenler</a></li>
                             <li><a href="#" className='text-base text-mainBlue flex cursor-pointer dark:text-white dark:opacity-50'>Bize Ulaşın</a></li>
                         </ul>
@@ -101,7 +101,7 @@ function Navbar({ theme, setTheme }) {
 
                 <div className="xl:flex xl:gap-x-5">
                     <a href="#" className="font-medium block text-base text-center rounded-xl p-4 mb-2.5 cursor-pointer bg-[#f8f9fa] dark:text-white dark:bg-[#f8f9fa1a] dark:bg-opacity-10">Hakkımızda</a>
-                    <a href="#" className="font-medium block text-base text-center rounded-xl p-4 mb-2.5 cursor-pointer bg-[#f8f9fa] dark:text-white dark:bg-[#f8f9fa1a] dark:bg-opacity-10">Hizmetler</a>
+                    <a href="#" className="font-medium block text-base text-center rounded-xl p-4 mb-2.5 cursor-pointer bg-[#f8f9fa] dark:text-white dark:bg-[#f8f9fa1a] dark:bg-opacity-10">Gruplar</a>
                     <a href="#" className="font-medium block text-base text-center rounded-xl p-4 mb-2.5 cursor-pointer bg-[#f8f9fa] dark:text-white dark:bg-[#f8f9fa1a] dark:bg-opacity-10">Öğretmenler</a>
                     <a href="#" className="font-medium block text-base text-center rounded-xl p-4 mb-2.5 cursor-pointer bg-[#f8f9fa] dark:text-white dark:bg-[#f8f9fa1a] dark:bg-opacity-10">Bize Ulaşın</a>
                     <a href="#" target="_blank">
