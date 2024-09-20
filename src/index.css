@@ -175,4 +175,5 @@ html.dark body {
     mask-size: cover;
     -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
+    border-radius: 20px;
 }
