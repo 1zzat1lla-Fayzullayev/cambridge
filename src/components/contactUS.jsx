@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-unused-vars */
 import { useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
@@ -19,9 +20,9 @@ const ContactUS = () => {
     const USERID2 = "-1002148619946";
 
     const encodeText = (text) => encodeURIComponent(text);
- 
 
-    
+
+
     const sendFeedback = async (e) => {
         e.preventDefault();
         setIsLoading(true);
@@ -61,13 +62,13 @@ const ContactUS = () => {
                 <div className="w-full">
                     <form onSubmit={sendFeedback} className="p-8 rounded-lg">
                         <div className="flex flex-col justify-center items-center">
-                            <h3 className="md:text-[50px] font-bold text-gray-800 mb-2 dark:text-white">Tavsiye Alın</h3>
-                            <p className="text-gray-600 mb-6">Bizimle iletişime geçmek için lütfen aşağıdaki formu doldurun.</p>
+                            <h3 className="md:text-[50px] font-bold text-gray-800 mb-2 dark:text-white">Maslahat olish</h3>
+                            <p className="text-gray-600 mb-6">Biz bilan bog‘lanish uchun quyidagi shaklni to‘ldiring.</p>
                         </div>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
                             <div className="inputWrap">
                                 <InputMask
-                                    placeholder="Adınız"
+                                    placeholder="Sizning ismingiz"
                                     onChange={(e) => setName(e.target.value)}
                                     value={name}
                                     className="form-control border border-gray-300 dark:border-[#ffffff36] bg-transparent rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-blue-400"
@@ -78,7 +79,7 @@ const ContactUS = () => {
                             </div>
                             <div className="inputWrap">
                                 <InputMask
-                                    placeholder="Telefonunuz"
+                                    placeholder="Telefoningiz"
                                     onChange={handlePhoneChange}
                                     value={phone}
                                     className="form-control border border-gray-300 dark:border-[#ffffff36] bg-transparent rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-blue-400"
@@ -91,7 +92,7 @@ const ContactUS = () => {
                         </div>
                         <div className="inputWrap mb-4">
                             <InputMask
-                                placeholder="E-postanız"
+                                placeholder="Sizning elektron pochtangiz"
                                 onChange={(e) => setEmail(e.target.value)}
                                 value={email}
                                 className="form-control border border-gray-300 dark:border-[#ffffff36] bg-transparent rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-blue-400"
@@ -108,7 +109,7 @@ const ContactUS = () => {
                                 name="service"
                                 required
                             >
-                                <option className="bg-transparent text-black" value="" disabled>Bir Seviye Seçin</option>
+                                <option className="bg-transparent text-black" value="" disabled>Darajani tanlang</option>
                                 <option className="bg-transparent text-black" value="0">0</option>
                                 <option className="bg-transparent text-black" value="A1">A1</option>
                                 <option className="bg-transparent text-black" value="A2">A2</option>
@@ -120,7 +121,7 @@ const ContactUS = () => {
                         </div>
                         <div className="inputWrap mb-4">
                             <textarea
-                                placeholder="Your Message"
+                                placeholder="Xabaringiz"
                                 onChange={(e) => setDescription(e.target.value)}
                                 value={description}
                                 className="form-control border border-gray-300 dark:border-[#ffffff36] bg-transparent rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-blue-400"
@@ -129,7 +130,7 @@ const ContactUS = () => {
                             />
                         </div>
                         <p className="text-gray-600 mb-4">
-                            Daha fazla bilgiye mi ihtiyacınız var? <a href="#" className="text-blue-500 hover:underline">buraya tıklayın</a>
+                            Qo'shimcha ma'lumot kerakmi? <a href="#" className="text-blue-500 hover:underline">bu yerni bosing</a>
                         </p>
                         <button
                             type="submit"
@@ -138,9 +139,9 @@ const ContactUS = () => {
                             ${isLoading ? 'bg-gray-400' : 'bg-blue-600 hover:bg-blue-700'}`}
                         >
                             {isLoading ? (
-                                <span>Gönderiliyor...</span>
+                                <span>Yuborilmoqda...</span>
                             ) : (
-                                <span>Mesaj Gönder</span>
+                                <span>Yuborish</span>
                             )}
                         </button>
                         <ToastContainer />

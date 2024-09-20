@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -10,10 +11,10 @@ function Teachers() {
         <Wrapper>
             <div className="mt-[150px]">
                 <h2 className="text-mainBlue text-4xl font-bold mb-2 sm:text-center xl:text-5xl dark:text-white">
-                    Öğretmenlerimiz
+                    Bizning o'qituvchilarimiz
                 </h2>
                 <p className="text-mainBlue text-base opacity-50 mb-10 sm:text-center md:text-lg xl:text-xl max-w-2xl mx-auto dark:text-white dark:opacity-50">
-                    Gerçek kahramanlar, onlarla aşağıda tanışabilirsiniz
+                    Haqiqiy qahramonlar, ular bilan quyida tanishishingiz mumkin
                 </p>
                 <div className='lg:flex lg:gap-x-5 justify-center'>
                     <div className="md:flex md:gap-x-5 lg:w-3/4 justify-center">

@@ -9,7 +9,7 @@ function WhySelected() {
             <section className="why wrapper-padding">
                 <div className="pt-10 text-center">
                     <h2 className="text-[#050a41] text-4xl font-bold mb-2 sm:text-center xl:text-5xl dark:text-white">
-                        İnsanlar bizi neden tercih ediyor ?
+                        Nega aynan biz?
                     </h2>
                     <p className="text-[#050a41] text-base opacity-50 mb-10 sm:text-center md:text-lg xl:text-xl max-w-2xl mx-auto dark:text-white dark:opacity-50">
                         {/* Cambridge English Language Center, 2014'ten bu yana gençlere İngilizce öğretiyor ve şu anda 14 şubesi var. */}
@@ -38,7 +38,7 @@ function WhySelected() {
                                     </h3>
                                     <p className="text-sm lg:text-base opacity-50 dark:text-white">
                                         {/* Bir konuyu iyi anlayamadıysanız, ikinci öğretmenler her türlü sorunuzda size yardımcı olmak için her zaman orada olacaklardır. */}
-                                        1- Tecrübeli ve Profesyonel Türk Öğretmenler
+                                        Tajribali va professional turk tili o'qituvchilari
                                     </p>
                                 </div>
                             </div>
@@ -58,7 +58,7 @@ function WhySelected() {
                                     </h3>
                                     <p className="text-sm lg:text-base opacity-50 dark:text-white">
                                         {/* Hem 'MOCK' sınavlarına hem de gerçek IELTS sınavına girebileceğiniz ayrı bir test merkezimiz bulunmaktadır. Doğru okudunuz, gerçek IELTS sınavına Cambridge'de gireceksiniz. */}
-                                        2- Gerçek Sınavlara Yakın Test Hizmetleri
+                                        Haqiqiy imtihonlarga yaqin sinov xizmatlari
                                     </p>
                                 </div>
                             </div>
@@ -82,7 +82,7 @@ function WhySelected() {
                                     </h3>
                                     <p className="text-sm lg:text-base opacity-50 dark:text-white">
                                         {/* Tenis, golf, mafya, sinema, ünlülerle tanışma ve unutulmaz geziler; bunların hepsi Cambridge öğrencileri için tamamen ücretsizdir. */}
-                                        3-Ücretsiz Etkinlikler
+                                        Bepul tadbirlar
                                     </p>
                                 </div>
                             </div>
@@ -102,7 +102,7 @@ function WhySelected() {
                                     </h3>
                                     <p className="text-sm lg:text-base opacity-50 dark:text-white">
                                         {/* Eğitim merkezimizin her şubesinde öğrencilerimize özel ortak çalışma alanları bulunmaktadır. Burada sınıf dışında özgürce İngilizce çalışabilir veya ek bir öğretmenden ders alabilirsiniz. */}
-                                        4-Öğrenciye Özel Kariyer Danışmanlığı ve Gelişim Programı Tasarlama
+                                        Talabalar uchun maxsus martaba bo'yicha maslahat va rivojlanish dasturini ishlab chiqish
                                     </p>
                                 </div>
                             </div>

@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 import Wrapper from "../layout/wrapper";
@@ -17,10 +18,10 @@ function Footer({ theme }) {
                                     alt="Logo"
                                     className='w-36 lg:w-48'
                                 />
-                                <p className="text-[#85888E] mt-2">Kurslarımız hakkında daha fazla bilgi alın.</p>
+                                <p className="text-[#85888E] mt-2">Kurslarimiz haqida ko'proq bilib oling.</p>
                             </div>
                             <div className="sm:max-w-[12rem]">
-                                <h2 className="text-[1.500rem] lg:text-[1.875rem]">İletişim</h2>
+                                <h2 className="text-[1.500rem] lg:text-[1.875rem]">Aloqa</h2>
                                 <a href="tel:+998334691101" className="flex items-center gap-x-2 text-[#85888E] mt-2">
                                     <FontAwesomeIcon icon={faTelegram} />
                                     +998(33) 469 11 01
@@ -42,11 +43,8 @@ function Footer({ theme }) {
                 </div>
                 <div className="footer-bottom border-t border-[#3b4155] w-full">
                     <Wrapper>
-                        <div className="flex items-center justify-between py-6">
+                        <div className="flex items-center justify-center py-6 text-center">
                             <p className="text-[#85888E]">Copyright © 2024 Turkchasoati</p>
-                            <a href="#" className="text-[#85888E]">
-                                Teklif
-                            </a>
                         </div>
                     </Wrapper>
                 </div>

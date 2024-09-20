@@ -5,23 +5,23 @@ import 'swiper/css';
 const slides = [
     {
         img: "/support.svg",
-        title: "Ücretsiz ikinci öğretmen",
-        description: "Bir konuyu iyi anlayamadıysanız, ikinci öğretmenler her türlü sorunuzda size yardımcı olmak için her zaman orada olacaklardır.",
+        // title: "Ücretsiz ikinci öğretmen",
+        description: "Tajribali va professional turk tili o'qituvchilari",
     },
     {
         img: "/test.svg",
-        title: "Test Merkezi",
-        description: "Hem 'MOCK' sınavlarına hem de gerçek IELTS sınavına girebileceğiniz ayrı bir test merkezimiz bulunmaktadır. Doğru okudunuz, gerçek IELTS sınavına Cambridge'de gireceksiniz.",
+        // title: "Test Merkezi",
+        description: "Haqiqiy imtihonlarga yaqin sinov xizmatlari",
     },
     {
         img: "/event.svg",
-        title: "Ücretsiz etkinlikler",
-        description: "Tenis, golf, mafya, sinema, ünlülerle tanışma ve unutulmaz geziler; bunların hepsi Cambridge öğrencileri için tamamen ücretsizdir.",
+        // title: "Ücretsiz etkinlikler",
+        description: "Bepul tadbirlar",
     },
     {
         img: "/co-working.svg",
-        title: "Ortak çalışma bölgeleri",
-        description: "Eğitim merkezimizin her şubesinde öğrencilerimize özel ortak çalışma alanları bulunmaktadır. Burada sınıf dışında özgürce İngilizce çalışabilir veya ek bir öğretmenden ders alabilirsiniz.",
+        // title: "Ortak çalışma bölgeleri",
+        description: "Talabalar uchun maxsus martaba bo'yicha maslahat va rivojlanish dasturini ishlab chiqish",
     },
 ];
 
@@ -36,7 +36,7 @@ const MobileWhySelectedSwiper = () => {
             className="mySwiper"
         >
             {slides.map((slide, index) => (
-                <SwiperSlide key={index} className="flex min-h-[250px] flex-col items-center bg-[#f7f7f7] p-6 rounded-[1.3rem] dark:bg-activeGray dark:bg-opacity-10">
+                <SwiperSlide key={index} className="flex min-h-[180px] flex-col items-center bg-[#f7f7f7] p-6 rounded-[1.3rem] dark:bg-activeGray dark:bg-opacity-10">
                     <img src={slide.img} alt={slide.alt} className="w-16 mb-4" />
                     <div className="info text-center">
                         <h3 className="text-xl lg:text-3xl font-medium mb-2.5 dark:text-white">
