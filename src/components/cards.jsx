@@ -1,9 +1,14 @@
+/* eslint-disable no-unused-vars */
 import Wrapper from "../layout/wrapper";
-import { useEffect } from "react";
+import { useContext, useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { LanguageContext } from "../context/LanguageContext";
+import { getText } from "../language";
 
 function Cards() {
+    const { selectedLanguage, selectedFlag, changeLanguage } = useContext(LanguageContext)
+
     useEffect(() => {
         AOS.init();
     }, []);
@@ -24,8 +29,8 @@ function Cards() {
                         9+
                     </p>
                     <p className="card-text opacity-50 text-base xl:text-lg mt-1 dark:text-white text-mainBlue">
-                        Sayohat uchun Turk tili
-                    </p>
+                        {getText("card1Paragraph")}
+                    </p>    
                 </div>
 
                 {/* Card 2 */}
@@ -41,7 +46,7 @@ function Cards() {
                         50,000+
                     </p>
                     <p className="card-text opacity-50 text-base xl:text-lg mt-1 dark:text-white text-mainBlue">
-                        Sertifikat uchun Turk tili
+                    {getText("card2Paragraph")}
                     </p>
                 </div>
 
@@ -58,7 +63,7 @@ function Cards() {
                         14
                     </p>
                     <p className="card-text opacity-50 text-base xl:text-lg mt-1 dark:text-white text-mainBlue">
-                        Biznes uchun Turk tili
+                    {getText("card3Paragraph")}
                     </p>
                 </div>
 
@@ -75,7 +80,7 @@ function Cards() {
                         500+
                     </p>
                     <p className="card-text opacity-50 text-base xl:text-lg mt-1 dark:text-white text-mainBlue">
-                        Magistratura va PhD uchun
+                    {getText("card4Paragraph")}
                     </p>
                 </div>
             </div>

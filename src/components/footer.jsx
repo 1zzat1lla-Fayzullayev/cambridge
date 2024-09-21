@@ -1,11 +1,15 @@
-/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 import Wrapper from "../layout/wrapper";
 import { faFacebookF, faInstagram, faTelegram } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { getText } from "../language";
+import { useContext } from "react";
+import { LanguageContext } from "../context/LanguageContext";
 
 function Footer({ theme }) {
+    const { selectedLanguage, selectedFlag, changeLanguage } = useContext(LanguageContext)
+
     return (
         <div className="bg-[#F7F7F7] dark:bg-[#f8f9fa1a] mt-[100px]">
             <footer className="dark:bg-opacity-10 duration-300 w-full">
@@ -18,13 +22,13 @@ function Footer({ theme }) {
                                     alt="Logo"
                                     className='w-36 lg:w-48'
                                 />
-                                <p className="text-[#85888E] mt-2">Kurslarimiz haqida ko'proq bilib oling.</p>
+                                <p className="text-[#85888E] mt-2">{getText('footerParagraph')}</p>
                             </div>
                             <div className="sm:max-w-[12rem]">
-                                <h2 className="text-[1.500rem] lg:text-[1.875rem]">Aloqa</h2>
-                                <a href="tel:+998334691101" className="flex items-center gap-x-2 text-[#85888E] mt-2">
+                                <h2 className="text-[1.500rem] lg:text-[1.875rem]">{getText("footerContactTitle")}</h2>
+                                <a href="tel:+998909196545" className="flex items-center gap-x-2 text-[#85888E] mt-2">
                                     <FontAwesomeIcon icon={faTelegram} />
-                                    +998(33) 469 11 01
+                                    +998 (90) 919 65 45
                                 </a>
                             </div>
                             <div className="flex gap-x-4">

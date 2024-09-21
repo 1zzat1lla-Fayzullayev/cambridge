@@ -1,20 +1,24 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-unused-vars */
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css';
 import Wrapper from "../layout/wrapper";
+import { getText } from '../language';
+import { LanguageContext } from '../context/LanguageContext';
 
 function Teachers() {
+    const { selectedLanguage, selectedFlag, changeLanguage } = useContext(LanguageContext)
+
 
     return (
         <Wrapper>
             <div className="mt-[150px]">
                 <h2 className="text-mainBlue text-4xl font-bold mb-2 sm:text-center xl:text-5xl dark:text-white">
-                    Bizning o'qituvchilarimiz
+                    {getText("teachersHeading")}
                 </h2>
                 <p className="text-mainBlue text-base opacity-50 mb-10 sm:text-center md:text-lg xl:text-xl max-w-2xl mx-auto dark:text-white dark:opacity-50">
-                    Haqiqiy qahramonlar, ular bilan quyida tanishishingiz mumkin
+                    {getText("teacherParagraph")}
                 </p>
                 <div className='lg:flex lg:gap-x-5 justify-center'>
                     <div className="md:flex md:gap-x-5 lg:w-3/4 justify-center">
@@ -23,7 +27,8 @@ function Teachers() {
                         </div>
                         <div className="md:w-3/5">
                             <div className="block mt-2.5 mb-10 dark:text-white">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet totam inventore amet perferendis accusamus vero quam pariatur blanditiis animi consequatur ea adipisci unde quod esse, a ullam molestias impedit ad labore magnam temporibus aspernatur natus sed nobis. Illum, nisi, esse temporibus totam distinctio perferendis consequatur quos omnis aut ducimus iure!</p>
+                                <p>{getText("teacherInfo")}
+                                </p>
                             </div>
                         </div>
                     </div>

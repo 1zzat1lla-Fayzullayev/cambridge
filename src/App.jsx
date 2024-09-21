@@ -8,9 +8,9 @@ import SecondSwiper from "./components/secondSwiper"
 import Teachers from "./components/teachers"
 import Footer from "./components/footer"
 import ContactUS from "./components/contactUS"
+import { LanguageProvider } from "./context/LanguageContext"
 
 function App() {
-  const [loading, setLoading] = useState(true)
   const [theme, setTheme] = useState('light');
 
 
@@ -22,33 +22,19 @@ function App() {
     }
   }, []);
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setLoading(false)
-    }, 1000)
 
-    return () => clearTimeout(timer)
-  }, [])
-
-  if (loading) {
-    return (
-      <div className="flex flex-col items-center justify-center fixed left-0 top-0 h-full w-full z-[1000] bg-white overflow-hidden"> <img
-        src={theme === 'light' ? "/turkchasoati1.png" : "/turkchasoati2.png"}
-        alt="Logo"
-        className='w-36 lg:w-44'
-      /></div>
-    )
-  }
   return (
     <>
-      <Navbar theme={theme} setTheme={setTheme} />
-      <Header />
-      <Cards />
-      <WhySelected />
-      {/* <SecondSwiper /> */}
-      <Teachers />
-      <ContactUS />
-      <Footer theme={theme} setTheme={setTheme} />
+      <LanguageProvider>
+        <Navbar theme={theme} setTheme={setTheme} />
+        <Header />
+        <Cards />
+        <WhySelected />
+        {/* <SecondSwiper /> */}
+        <Teachers />
+        <ContactUS />
+        <Footer theme={theme} setTheme={setTheme} />
+      </LanguageProvider>
     </>
   )
 }

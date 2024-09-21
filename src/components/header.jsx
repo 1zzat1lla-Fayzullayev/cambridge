@@ -1,10 +1,16 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable react/no-unescaped-entities */
 import Wrapper from "../layout/wrapper";
-import { useEffect } from "react";
+import { useContext, useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { getText } from "../language";
+import { LanguageContext } from "../context/LanguageContext";
 
 function Header() {
+    const { selectedLanguage, selectedFlag, changeLanguage } = useContext(LanguageContext)
+
+
     useEffect(() => {
         AOS.init();
     }, []);
@@ -18,21 +24,20 @@ function Header() {
                     className="md:w-[50%]"
                 >
                     <h1 className="text-[#050a41] dark:text-white font-bold text-5xl lg:text-6xl xl:text-7xl text-start">
-                        Turk tilini o'rganing
+                        {getText("headerHeading")}
                     </h1>
                     <p className="py-5 text-base lg:text-lg text-[#050a41] dark:text-white dark:opacity-50 text-start">
-                        Turk dunyosining eshiklarini oching...
+                        {getText("headerParagraph")}
                     </p>
                     <a
-                        href="#"
-                        target="_blank"
+                        href="#contact"
                         className="block w-full max-w-max"
                     >
                         <button
                             className="flex header-btn items-center justify-center px-8 py-4 rounded-2xl duration-200 blue-gradient w-full max-w-max"
                         >
                             <span className="text-base lg:text-lg text-white">
-                                Birinchi darsingizga yoziling
+                                {getText("headerButton")}
                             </span>
                             <img
                                 src="/stars.svg"
