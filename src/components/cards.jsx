@@ -22,9 +22,9 @@ function Cards() {
                     data-aos="fade-up"
                     data-aos-duration="500"
                 >
-                    <div className="card-icon">
+                    {/* <div className="card-icon">
                         <div className="dark:bg-white bg-black w-3 h-3 lg:w-4 lg:h-4 rounded-full ml-auto" />
-                    </div>
+                    </div> */}
                     <p className="card-title font-medium text-3xl md:text-4xl xl:text-[2.7rem] dark:text-white text-mainBlue">
                         9+
                     </p>
@@ -39,9 +39,9 @@ function Cards() {
                     data-aos="fade-up"
                     data-aos-duration="500"
                 >
-                    <div className="card-icon">
+                    {/* <div className="card-icon">
                         <div className="dark:bg-white bg-black w-3 h-3 lg:w-4 lg:h-4 rounded-full ml-auto" />
-                    </div>
+                    </div> */}
                     <p className="card-title font-medium text-3xl md:text-4xl xl:text-[2.7rem] dark:text-white text-mainBlue">
                         50,000+
                     </p>
@@ -56,9 +56,9 @@ function Cards() {
                     data-aos="fade-up"
                     data-aos-duration="500"
                 >
-                    <div className="card-icon">
+                    {/* <div className="card-icon">
                         <div className="dark:bg-white bg-black w-3 h-3 lg:w-4 lg:h-4 rounded-full ml-auto" />
-                    </div>
+                    </div> */}
                     <p className="card-title font-medium text-3xl md:text-4xl xl:text-[2.7rem] dark:text-white text-mainBlue">
                         14
                     </p>
@@ -73,9 +73,9 @@ function Cards() {
                     data-aos="fade-up"
                     data-aos-duration="500"
                 >
-                    <div className="card-icon">
+                    {/* <div className="card-icon">
                         <div className="dark:bg-white bg-black w-3 h-3 lg:w-4 lg:h-4 rounded-full ml-auto" />
-                    </div>
+                    </div> */}
                     <p className="card-title font-medium text-3xl md:text-4xl xl:text-[2.7rem] dark:text-white text-mainBlue">
                         500+
                     </p>

@@ -86,13 +86,13 @@ function Navbar({ theme, setTheme }) {
                                     </button>
                                 </div>
                             )} */}
-                            <div className="flex items-center gap-[5px] outline-none border-none ">
+                            <div className="flex items-center gap-[5px] outline-none border-none cursor-pointer">
                                 <img
                                     src={selectedFlag}
                                     style={{ width: "20px", objectFit: "cover" }}
                                 />
                                 <select
-                                    className='bg-transparent'
+                                    className='bg-transparent border-none outline-none cursor-pointer'
                                     onChange={(e) => changeLanguage(e.target.value)}
                                     value={selectedLanguage}
                                 >

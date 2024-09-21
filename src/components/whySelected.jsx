@@ -31,7 +31,7 @@ function WhySelected() {
                 <div className="hidden md:flex items-center justify-center gap-3">
                     <div data-aos="fade-right" delay="100" className="flex flex-col gap-3 max-w-[33%] aos-init aos-animate">
                         {/* Card 1 */}
-                        <div className="flex flex-col gap-3 min-h-[200px]">
+                        <div className="flex flex-col gap-3 min-h-[200px] card">
                             <div className="rounded-[1.3rem] flex-grow bg-[#f7f7f7] p-6 flex flex-col justify-between items-start dark:bg-activeGray dark:bg-opacity-10">
                                 <img
                                     src="/support.svg"
@@ -51,7 +51,7 @@ function WhySelected() {
                         </div>
 
                         {/* Card 2 */}
-                        <div className="flex flex-col gap-3 min-h-[200px]">
+                        <div className="flex flex-col gap-3 min-h-[200px] card">
                             <div className="rounded-[1.3rem] flex-grow bg-[#f7f7f7] p-6 flex flex-col justify-between items-start dark:bg-activeGray dark:bg-opacity-10">
                                 <img
                                     src="/test.svg"
@@ -75,7 +75,7 @@ function WhySelected() {
                     <div data-aos="fade-left" delay="100" className="flex flex-col gap-3 max-w-[33%] aos-init aos-animate">
 
                         {/* Card 4 */}
-                        <div className="flex flex-col gap-3 min-h-[200px]">
+                        <div className="flex flex-col gap-3 min-h-[200px] card">
                             <div className="rounded-[1.3rem] flex-grow bg-[#f7f7f7] p-6 flex flex-col justify-between items-start dark:bg-activeGray dark:bg-opacity-10">
                                 <img
                                     src="/event.svg"
@@ -95,7 +95,7 @@ function WhySelected() {
                         </div>
 
                         {/* Card 5 */}
-                        <div className="flex flex-col gap-3 min-h-[200px]">
+                        <div className="flex flex-col gap-3 min-h-[200px] card">
                             <div className="rounded-[1.3rem] flex-grow bg-[#f7f7f7] p-6 flex flex-col justify-between items-start dark:bg-activeGray dark:bg-opacity-10">
                                 <img
                                     src="/co-working.svg"
