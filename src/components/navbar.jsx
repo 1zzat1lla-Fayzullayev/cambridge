@@ -86,18 +86,19 @@ function Navbar({ theme, setTheme }) {
                                     </button>
                                 </div>
                             )} */}
-                            <div className="flex items-center gap-[5px] outline-none border-none">
+                            <div className="flex items-center gap-[5px] outline-none border-none ">
                                 <img
                                     src={selectedFlag}
                                     style={{ width: "20px", objectFit: "cover" }}
                                 />
                                 <select
+                                    className='bg-transparent'
                                     onChange={(e) => changeLanguage(e.target.value)}
                                     value={selectedLanguage}
                                 >
-                                    <option value="uz">Oʻzbek</option>
-                                    <option value="en">English</option>
-                                    <option value="tr">Türkçe</option>
+                                    <option className='dark:bg-[#121624] border-none' value="uz">Oʻzbek</option>
+                                    <option className='dark:bg-[#121624] border-none' value="en">English</option>
+                                    <option className='dark:bg-[#121624] border-none' value="tr">Türkçe</option>
                                 </select>
                             </div>
                         </div>
