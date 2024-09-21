@@ -189,3 +189,72 @@ html.dark body {
     will-change: transform;
     /* Optimize for performance */
 }
+
+.header-button {
+    appearance: button;
+    background-color: #1899d6;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding: 13px 19px;
+    text-align: center;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter 0.2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.header-button::after {
+    background-clip: padding-box;
+    background-color: #1cb0f6;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    bottom: -4px;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.header-button:main,
+.header-button:focus {
+    user-select: auto;
+}
+
+.header-button:hover:not(:disabled) {
+    filter: brightness(1.1);
+}
+
+.header-button:disabled {
+    cursor: auto;
+}
+
+.header-button:active:after {
+    border-width: 0 0 0px;
+}
+
+.header-button:active {
+    padding-bottom: 10px;
+}
+
+.blur-background {
+    backdrop-filter: blur(10px);
+    transition: backdrop-filter 0.3s ease;
+}
