@@ -22,7 +22,7 @@ export const tr = {
 
     teachersHeading: "Öğretmenlerimiz",
     teacherParagraph: "Gerçek kahramanlar, onlarla aşağıda tanışabilirsiniz",
-    teacherInfo: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet totam inventore amet perferendis accusamus vero quam pariatur blanditiis animi consequatur ea adipisci unde quod esse, a ullam molestias impedit ad labore magnam temporibus aspernatur natus sed nobis. Illum, nisi, esse temporibus totam distinctio perferendis consequatur quos omnis aut ducimus iure!",
+    teacherInfo: "Eğitim merkezinde, öğrenmeyi eğlenceli ve etkili hale getiren yüksek nitelikli öğretmenlerden oluşan ekibimizle gurur duyuyoruz. Her biri yalnızca kendi alanında derin bilgi birikimine değil, aynı zamanda kapsamlı iş deneyimine de sahiptir.",
 
 
     contactHeading: "Tavsiye alın",

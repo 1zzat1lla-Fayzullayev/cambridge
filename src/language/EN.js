@@ -21,7 +21,7 @@ export const en = {
 
     teachersHeading: "Our Teachers",
     teacherParagraph: "Real heroes, you can meet them below",
-    teacherInfo: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet totam inventore amet perferendis accusamus vero quam pariatur blanditiis animi consequatur ea adipisci unde quod esse, a ullam molestias impedit ad labore magnam temporibus aspernatur natus sed nobis. Illum, nisi, esse temporibus totam distinctio perferendis consequatur quos omnis aut ducimus iure!",
+    teacherInfo: "At the training center, we are proud of our team of highly qualified teachers who make learning fun and effective. Each of them has not only deep knowledge in their field, but also extensive work experience.",
 
     contactHeading: "Get Advice",
     contactParagraph: "Please fill out the form below to contact us.",

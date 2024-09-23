@@ -21,7 +21,7 @@ export const uz = {
 
     teachersHeading: "O'qituvchilarimiz",
     teacherParagraph: "Haqiqiy qahramonlar, ular bilan quyida tanishishingiz mumkin",
-    teacherInfo: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet totam inventore amet perferendis accusamus vero quam pariatur blanditiis animi consequatur ea adipisci unde quod esse, a ullam molestias impedit ad labore magnam temporibus aspernatur natus sed nobis. Illum, nisi, esse temporibus totam distinctio perferendis consequatur quos omnis aut ducimus iure!",
+    teacherInfo: "O'quv markazida biz o'qishni qiziqarli va samarali qiladigan yuqori malakali o'qituvchilarimiz bilan faxrlanamiz. Ularning har biri o‘z sohasi bo‘yicha nafaqat chuqur bilimga, balki katta ish tajribasiga ham ega.",
 
     contactHeading: "Tavsiya oling",
     contactParagraph: "Biz bilan bog'lanish uchun quyidagi shaklni to'ldiring.",
