@@ -1,7 +1,9 @@
 export const tr = {
     navbarAbout: "Hakkımızda",
-    navbarGroups: "Gruplar",
-    navbarTeachers: "Öğretmenler",
+    navbarService: "Hizmetlerimiz",
+    navbarEdu: "Eğitim Yöntemimiz",
+    navbarBlog: "Blog",
+    navbarFaq: "SSS",
     navbarContact: "İletişim",
 
     headerHeading: "Türkçe öğrenin",

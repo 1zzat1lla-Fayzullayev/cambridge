@@ -1,7 +1,9 @@
 export const en = {
     navbarAbout: "About Us",
-    navbarGroups: "Groups",
-    navbarTeachers: "Teachers",
+    navbarService: "Our Services",
+    navbarEdu: "Our Education Method",
+    navbarBlog: "Blog",
+    navbarFaq: "FAQ",
     navbarContact: "Contact",
 
     headerHeading: "Learn Turkish",
