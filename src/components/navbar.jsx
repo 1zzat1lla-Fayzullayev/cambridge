@@ -13,9 +13,8 @@ function Navbar({ theme, setTheme }) {
     const [navbar, setNavbar] = useState(false);
     const { selectedLanguage, selectedFlag, changeLanguage } = useContext(LanguageContext)
 
-
     const changeNavbar = () => {
-        if (window.scrollY >= 30) {
+        if (window.scrollY >= 30 && !isMenuOpen) { 
             setNavbar(true);
         } else {
             setNavbar(false);
@@ -41,7 +40,6 @@ function Navbar({ theme, setTheme }) {
         };
     }, [isMenuOpen]);
 
-
     const toggleLangMenu = () => {
         setLangMenuOpen(prev => !prev);
     };
@@ -57,20 +55,18 @@ function Navbar({ theme, setTheme }) {
         setMenuOpen(prev => !prev);
     };
 
-
     return (
-        <div className={`fixed w-screen z-[999] ${navbar ? 'blur-background' : ''}`}>
+        <div className={`fixed w-screen z-[999] ${navbar && !isMenuOpen ? 'blur-background' : ''}`}>
             <Wrapper>
                 <div className="flex justify-between items-center py-3 md:py-4 relative z-[999]">
                     <div className="flex items-center gap-[30px]">
                         <Link to={"/"}>
-                        <img
-                            src={theme === 'light' ? "/turkchasoati1.png" : "/turkchasoati2.png"}
-                            alt="Logo"
-                            className='w-36 lg:w-44 cursor-pointer'
-                        />
+                            <img
+                                src={theme === 'light' ? "/turkchasoati1.png" : "/turkchasoati2.png"}
+                                alt="Logo"
+                                className='w-36 lg:w-44 cursor-pointer'
+                            />
                         </Link>
-
                         <ul className="lg:flex hidden items-center gap-[20px]">
                             <li><Link to={'/about'} className='text-base text-mainBlue flex cursor-pointer dark:text-white dark:opacity-50'>{getText("navbarAbout")}</Link></li>
                             <li><Link to={"/services"} className='text-base text-mainBlue flex cursor-pointer dark:text-white dark:opacity-50'>{getText("navbarService")}</Link></li>
@@ -122,7 +118,6 @@ function Navbar({ theme, setTheme }) {
             </div>
         </div>
     );
-
 }
 
 export default Navbar;
