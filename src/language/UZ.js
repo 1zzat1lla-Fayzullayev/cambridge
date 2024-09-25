@@ -39,4 +39,29 @@ export const uz = {
 
     footerParagraph: "Kurslarimiz haqida ko'proq ma'lumot oling.",
     footerContactTitle: "Aloqa",
+
+    aboutTitle: "Turk Tili Darsi: Tilni O‘rganishning Eng Samarali Yo‘li",
+    aboutParagraph: "O‘zbekistonda Turk tili ta'limiga yangicha yondashuv olib kelgan Turk Tili Darsi, shaxslar va tashkilotlar ehtiyojlariga moslashtirilgan maxsus ta'limlar taqdim etadi. Bizning maqsadimiz, til to‘siqlarini olib tashlash orqali talabalarga muvaffaqiyat sari yo‘l ko‘rsatishdir. Tajribali o‘qituvchilarimiz va innovatsion o‘qitish usullarimiz yordamida Turk tilini tez va samarali o‘rganishingizni ta'minlaymiz.",
+
+    blogTitle: "Turk Tilini Kashf Qiling va Ilhom Oling!",
+
+    contactTitle: "Biz Bilan Bog'laning",
+    contactParagrf: "Savollaringizni javoblash va ro‘yxatga olish jarayonini boshlash uchun biz bu yerdamiz. Bizning aloqa ma'lumotlarimiz yoki forma orqali biz bilan bog'lanishingiz mumkin.",
+
+    educationTitle: "Zamonaviy, Moslashuvchan va Samarali O‘qitish Modellari",
+    educationParagraph: "Turk Tili Darsi sifatida biz talabalarning individual o‘rganish uslublariga moslashtirilgan dasturlar yaratamiz. Onlayn yoki yuzma-yuz ta'lim variantlari bilan xohlagan vaqtingizda va joyingizda Turk tilini o‘rganing. Biz ta'lim jarayonlarimizga texnologiyani integratsiya qilib, samarali va interaktiv til o‘rganish tajribasini taqdim etamiz.",
+
+    faqTitle: "Tez-tez So'raladigan Savollar (KBS)",
+    faqParagraph: "Turk Tili Darsi haqida qiziqqan barcha savollaringizga bu yerda javob topishingiz mumkin. Ta'lim jarayonidan sertifikat dasturlarigacha, to‘lovlardan ro‘yxatdan o‘tish jarayonigacha barcha tafsilotlarni bilib oling.",
+
+    servicesTitle1: "Suhbat Turk Tili",
+    servicesTitle2: "Sertifikat Dasturlari",
+    servicesTitle3: "Ish Turk Tili",
+    servicesTitle4: "Tashkilotlar Uchun Maxsus Ta'limlar",
+
+    servicesParagraph1: "Kundalik hayotda Turk tilini ko‘proq ravon gaplashishni xohlaysizmi? Suhbatga yo‘naltirilgan dasturlarimiz bilan til amaliyoti qilishingiz va Turk tilida mahoratli bo‘lishingiz mumkin.",
+    servicesParagraph2: "Turk tili bilimlaringizni rasmiy sertifikat bilan tasdiqlamoqchimisiz? Til yetarli darajada bo‘lish imtihonlariga tayyorlov ta'limlarimiz va sertifikatli kurslarimiz aynan siz uchun!",
+    servicesParagraph3: "Kasbiy hayotda Turk tilini samarali ishlatmoqchimisiz? Bizning Ish Turk Tili dasturlarimiz ish yozishmalaridan tortib uchrashuvlargacha muvaffaqiyatga erishishingizni ta'minlaydi.",
+    servicesParagraph4: "Shirkatlar va rasmiy tashkilotlar uchun maxsus ishlab chiqilgan ta'limlarimiz bilan xodimlaringizga Turk tilini samarali o‘rgating va ish jarayonlaringizni yengillashtiring.",
+
 }

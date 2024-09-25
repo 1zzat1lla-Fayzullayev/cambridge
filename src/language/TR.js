@@ -41,4 +41,28 @@ export const tr = {
 
     footerParagraph: "Kurslarımız hakkında daha fazla bilgi edinin.",
     footerContactTitle: "İletişim",
+
+    aboutTitle: "Türkçe Saati: Dil Öğrenmenin En Verimli Yolu",
+    aboutParagraph: "Özbekistan'da Türkçe eğitimine yepyeni bir soluk getiren Türkçe Saati, bireylerin ve kurumların ihtiyaçlarına yönelik özel eğitimler sunuyor. Amacımız, dil bariyerlerini ortadan kaldırarak öğrencilerimize başarıya giden yolda rehberlik etmek. Deneyimli eğitmenlerimiz ve yenilikçi öğretim yöntemlerimizle, Türkçeyi hızla ve etkili bir şekilde öğrenmenizi sağlıyoruz.",
+
+    blogTitle: "Türkçeyi Keşfedin ve İlham Alın!",
+
+    contactTitle: "Bizimle İletişime Geçin",
+    contactParagrf: `Sorularınızı yanıtlamak ve kayıt sürecinizi başlatmak için buradayız. İletişim bilgilerimizden veya form aracılığıyla bizimle iletişime geçebilirsiniz.`,
+
+    educationTitle: "Modern, Esnek ve Etkili Öğrenme Modelleri",
+    educationParagraph: "Türkçe Saati olarak, öğrencilerimizin bireysel öğrenme stillerine göre programlar oluşturuyoruz. Çevrimiçi veya yüz yüze eğitim seçenekleriyle, dilediğiniz zaman ve yerde Türkçe öğrenin. Teknolojiyi eğitim süreçlerimize entegre ederek etkili ve interaktif bir dil öğrenme deneyimi sunuyoruz.",
+
+    faqTitle: "Sıkça Sorulan Sorular (SSS)",
+    faqParagraph: "Türkçe Saati hakkında merak ettiğiniz tüm sorulara burada yanıt bulabilirsiniz. Eğitim sürecinden sertifika programlarına, ücretlerden kayıt işlemlerine kadar tüm detayları öğrenin.",
+
+    servicesTitle1: "Konuşma Türkçesi",
+    servicesTitle2: "Sertifika Programları",
+    servicesTitle3: "İş Türkçesi",
+    servicesTitle4: "Kurumlara Özel Eğitimler",
+
+    servicesParagraph1: "Günlük yaşamda daha akıcı Türkçe konuşmak ister misiniz? Konuşma odaklı programlarımızla dil pratiği yaparak özgüveninizi artırın ve Türkçede ustalaşın.",
+    servicesParagraph2: "Türkçe dil bilginizi resmi bir sertifika ile belgelemek ister misiniz? Dil yeterlilik sınavlarına hazırlık eğitimlerimiz ve sertifikalı kurslarımız tam size göre!",
+    servicesParagraph3: "Profesyonel hayatta Türkçeyi etkin kullanmak istiyorsanız, İş Türkçesi programlarımız iş yazışmalarından toplantılara kadar her alanda başarılı olmanızı sağlayacak.",
+    servicesParagraph4: "Şirketler ve resmi kurumlar için özel olarak tasarladığımız eğitimlerle çalışanlarınıza Türkçeyi etkin bir şekilde öğretin ve iş süreçlerinizi kolaylaştırın.",
 }

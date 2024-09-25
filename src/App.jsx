@@ -11,30 +11,26 @@ import ContactUS from "./components/contactUS"
 import { LanguageProvider } from "./context/LanguageContext"
 
 function App() {
-  const [theme, setTheme] = useState('light');
+  // const [theme, setTheme] = useState('light');
 
 
-  useEffect(() => {
-    const savedTheme = localStorage.getItem('theme');
-    if (savedTheme) {
-      setTheme(savedTheme);
-      document.documentElement.classList.add(savedTheme);
-    }
-  }, []);
+  // useEffect(() => {
+  //   const savedTheme = localStorage.getItem('theme');
+  //   if (savedTheme) {
+  //     setTheme(savedTheme);
+  //     document.documentElement.classList.add(savedTheme);
+  //   }
+  // }, []);
 
 
   return (
     <>
-      <LanguageProvider>
-        <Navbar theme={theme} setTheme={setTheme} />
         <Header />
         <Cards />
         <WhySelected />
         {/* <SecondSwiper /> */}
         <Teachers />
         <ContactUS />
-        <Footer theme={theme} setTheme={setTheme} />
-      </LanguageProvider>
     </>
   )
 }

@@ -5,6 +5,7 @@ import Wrapper from "../layout/wrapper";
 import ThemeToggle from '../ui/themeToggle';
 import { LanguageContext } from '../context/LanguageContext';
 import { getText } from '../language';
+import { Link } from 'react-router-dom';
 
 function Navbar({ theme, setTheme }) {
     const [isLangMenuOpen, setLangMenuOpen] = useState(false);
@@ -62,18 +63,21 @@ function Navbar({ theme, setTheme }) {
             <Wrapper>
                 <div className="flex justify-between items-center py-3 md:py-4 relative z-[999]">
                     <div className="flex items-center gap-[30px]">
+                        <Link to={"/"}>
                         <img
                             src={theme === 'light' ? "/turkchasoati1.png" : "/turkchasoati2.png"}
                             alt="Logo"
-                            className='w-36 lg:w-44'
+                            className='w-36 lg:w-44 cursor-pointer'
                         />
+                        </Link>
+
                         <ul className="lg:flex hidden items-center gap-[20px]">
-                            <li><a href="#" className='text-base text-mainBlue flex cursor-pointer dark:text-white dark:opacity-50'>{getText("navbarAbout")}</a></li>
-                            <li><a href="#" className='text-base text-mainBlue flex cursor-pointer dark:text-white dark:opacity-50'>{getText("navbarService")}</a></li>
-                            <li><a href="#" className='text-base text-mainBlue flex cursor-pointer dark:text-white dark:opacity-50'>{getText("navbarEdu")}</a></li>
-                            <li><a href="#" className='text-base text-mainBlue flex cursor-pointer dark:text-white dark:opacity-50'>{getText("navbarBlog")}</a></li>
-                            <li><a href="#" className='text-base text-mainBlue flex cursor-pointer dark:text-white dark:opacity-50'>{getText("navbarFaq")}</a></li>
-                            <li><a href="#" className='text-base text-mainBlue flex cursor-pointer dark:text-white dark:opacity-50'>{getText("navbarContact")}</a></li>
+                            <li><Link to={'/about'} className='text-base text-mainBlue flex cursor-pointer dark:text-white dark:opacity-50'>{getText("navbarAbout")}</Link></li>
+                            <li><Link to={"/services"} className='text-base text-mainBlue flex cursor-pointer dark:text-white dark:opacity-50'>{getText("navbarService")}</Link></li>
+                            <li><Link to={"/education-method"} className='text-base text-mainBlue flex cursor-pointer dark:text-white dark:opacity-50'>{getText("navbarEdu")}</Link></li>
+                            <li><Link to={"/blog"} className='text-base text-mainBlue flex cursor-pointer dark:text-white dark:opacity-50'>{getText("navbarBlog")}</Link></li>
+                            <li><Link to={"/faq"} className='text-base text-mainBlue flex cursor-pointer dark:text-white dark:opacity-50'>{getText("navbarFaq")}</Link></li>
+                            <li><Link to={"/contact"} className='text-base text-mainBlue flex cursor-pointer dark:text-white dark:opacity-50'>{getText("navbarContact")}</Link></li>
                         </ul>
                     </div>
                     <div className='flex items-center gap-[15px]'>
