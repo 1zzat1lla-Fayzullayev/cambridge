@@ -29,7 +29,7 @@ const Root = () => {
     <LanguageProvider>
       <BrowserRouter>
         <Navbar theme={theme} setTheme={setTheme} />
-        <Routes className="h-screen">
+        <Routes className="min-h-screen">
           <Route path="/" element={<App />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />

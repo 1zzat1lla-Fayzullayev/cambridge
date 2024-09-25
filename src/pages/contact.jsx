@@ -6,9 +6,12 @@ import { LanguageContext } from "../context/LanguageContext";
 
 function Contact() {
   const { selectedLanguage, selectedFlag, changeLanguage } =
-  useContext(LanguageContext);
+    useContext(LanguageContext);
   return (
-    <div className="pt-[150px] bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
+    <div
+      className="pt-[150px] bg-gray-50 dark:bg-gray-900 transition-colors duration-300"
+      style={{ minHeight: "calc(100vh - 22.8rem)" }}
+    >
       <Wrapper>
         <div className="px-4 md:px-6 lg:px-8">
           <h2 className="text-2xl font-semibold text-mainBlue dark:text-white md:text-3xl xl:text-4xl">
