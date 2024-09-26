@@ -31,17 +31,17 @@ function WhySelected() {
                 <div className="hidden md:flex items-center justify-center gap-3">
                     <div data-aos="fade-right" delay="100" className="flex flex-col gap-3 max-w-[33%] aos-init aos-animate">
                         {/* Card 1 */}
-                        <div className="flex flex-col gap-3 min-h-[200px] card">
-                            <div className="rounded-[1.3rem] flex-grow bg-[#f7f7f7] p-6 flex flex-col justify-between items-start dark:bg-activeGray dark:bg-opacity-10">
+                        <div className="flex flex-col gap-3 card">
+                            <div className="rounded-[1.3rem] flex-grow bg-[#f7f7f7] p-6 flex gap-3 items-center dark:bg-activeGray dark:bg-opacity-10">
                                 <img
                                     src="/support.svg"
                                     sizes="(max-width: 768px) 150px, 300px"
                                     className="w-16"
                                 />
                                 <div className="info">
-                                    <h3 className="text-xl lg:text-3xl mt-4 font-medium mb-2.5 dark:text-white">
-                                        {/* 1- Tecrübeli ve Profesyonel Türk Öğretmenler */}
-                                    </h3>
+                                    {/* <h3 className="text-xl lg:text-3xl mt-4 font-medium mb-2.5 dark:text-white">
+                                        1- Tecrübeli ve Profesyonel Türk Öğretmenler
+                                    </h3> */}
                                     <p className="text-sm lg:text-base opacity-50 dark:text-white">
                                         {/* Bir konuyu iyi anlayamadıysanız, ikinci öğretmenler her türlü sorunuzda size yardımcı olmak için her zaman orada olacaklardır. */}
                                         {getText("whySelectedCard1")}
@@ -51,17 +51,17 @@ function WhySelected() {
                         </div>
 
                         {/* Card 2 */}
-                        <div className="flex flex-col gap-3 min-h-[200px] card">
-                            <div className="rounded-[1.3rem] flex-grow bg-[#f7f7f7] p-6 flex flex-col justify-between items-start dark:bg-activeGray dark:bg-opacity-10">
+                        <div className="flex flex-col gap-3 card">
+                            <div className="rounded-[1.3rem] flex-grow bg-[#f7f7f7] p-6 flex gap-3 items-center dark:bg-activeGray dark:bg-opacity-10">
                                 <img
                                     src="/test.svg"
                                     sizes="(max-width: 768px) 150px, 300px"
                                     className="w-16"
                                 />
                                 <div className="info">
-                                    <h3 className="text-xl lg:text-3xl mt-4 font-medium mb-2.5 dark:text-white">
-                                        {/* 2- Gerçek Sınavlara Yakın Test Hizmetleri */}
-                                    </h3>
+                                    {/* <h3 className="text-xl lg:text-3xl mt-4 font-medium mb-2.5 dark:text-white">
+                                        2- Gerçek Sınavlara Yakın Test Hizmetleri
+                                    </h3> */}
                                     <p className="text-sm lg:text-base opacity-50 dark:text-white">
                                         {/* Hem 'MOCK' sınavlarına hem de gerçek IELTS sınavına girebileceğiniz ayrı bir test merkezimiz bulunmaktadır. Doğru okudunuz, gerçek IELTS sınavına Cambridge'de gireceksiniz. */}
                                         {getText("whySelectedCard2")}
@@ -75,17 +75,17 @@ function WhySelected() {
                     <div data-aos="fade-left" delay="100" className="flex flex-col gap-3 max-w-[33%] aos-init aos-animate">
 
                         {/* Card 4 */}
-                        <div className="flex flex-col gap-3 min-h-[200px] card">
-                            <div className="rounded-[1.3rem] flex-grow bg-[#f7f7f7] p-6 flex flex-col justify-between items-start dark:bg-activeGray dark:bg-opacity-10">
+                        <div className="flex flex-col gap-3 card">
+                            <div className="rounded-[1.3rem] flex-grow bg-[#f7f7f7] p-6 flex gap-3 items-center dark:bg-activeGray dark:bg-opacity-10">
                                 <img
                                     src="/event.svg"
                                     sizes="(max-width: 768px) 150px, 300px"
                                     className="w-16"
                                 />
                                 <div className="info">
-                                    <h3 className="text-xl lg:text-3xl font-medium mt-4 mb-2.5 dark:text-white">
-                                        {/* 3-Ücretsiz Etkinlikler */}
-                                    </h3>
+                                    {/* <h3 className="text-xl lg:text-3xl font-medium mt-4 mb-2.5 dark:text-white">
+                                        3-Ücretsiz Etkinlikler
+                                    </h3> */}
                                     <p className="text-sm lg:text-base opacity-50 dark:text-white">
                                         {/* Tenis, golf, mafya, sinema, ünlülerle tanışma ve unutulmaz geziler; bunların hepsi Cambridge öğrencileri için tamamen ücretsizdir. */}
                                         {getText("whySelectedCard3")}
@@ -95,17 +95,17 @@ function WhySelected() {
                         </div>
 
                         {/* Card 5 */}
-                        <div className="flex flex-col gap-3 min-h-[200px] card">
-                            <div className="rounded-[1.3rem] flex-grow bg-[#f7f7f7] p-6 flex flex-col justify-between items-start dark:bg-activeGray dark:bg-opacity-10">
+                        <div className="flex flex-col gap-3 card">
+                            <div className="rounded-[1.3rem] flex-grow bg-[#f7f7f7] p-6 flex gap-3 items-center dark:bg-activeGray dark:bg-opacity-10">
                                 <img
                                     src="/co-working.svg"
                                     sizes="(max-width: 768px) 150px, 300px"
                                     className="w-16"
                                 />
                                 <div className="info">
-                                    <h3 className="text-xl lg:text-3xl font-medium mt-4 mb-2.5 dark:text-white">
-                                        {/* 4-Öğrenciye Özel Kariyer Danışmanlığı ve Gelişim Programı Tasarlama */}
-                                    </h3>
+                                    {/* <h3 className="text-xl lg:text-3xl font-medium mt-4 mb-2.5 dark:text-white">
+                                        4-Öğrenciye Özel Kariyer Danışmanlığı ve Gelişim Programı Tasarlama
+                                    </h3> */}
                                     <p className="text-sm lg:text-base opacity-50 dark:text-white">
                                         {/* Eğitim merkezimizin her şubesinde öğrencilerimize özel ortak çalışma alanları bulunmaktadır. Burada sınıf dışında özgürce İngilizce çalışabilir veya ek bir öğretmenden ders alabilirsiniz. */}
                                         {getText("whySelectedCard4")}
