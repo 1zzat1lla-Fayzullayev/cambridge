@@ -42,24 +42,24 @@ export const tr = {
     footerParagraph: "Kurslarımız hakkında daha fazla bilgi edinin.",
     footerContactTitle: "İletişim",
 
-    aboutTitle: "Türkçe Saati: Dil Öğrenmenin En Verimli Yolu",
+    aboutTitle: "Türkçe saati: dil öğrenmenin en verimli yolu",
     aboutParagraph: "Özbekistan'da Türkçe eğitimine yepyeni bir soluk getiren Türkçe Saati, bireylerin ve kurumların ihtiyaçlarına yönelik özel eğitimler sunuyor. Amacımız, dil bariyerlerini ortadan kaldırarak öğrencilerimize başarıya giden yolda rehberlik etmek. Deneyimli eğitmenlerimiz ve yenilikçi öğretim yöntemlerimizle, Türkçeyi hızla ve etkili bir şekilde öğrenmenizi sağlıyoruz.",
 
-    blogTitle: "Türkçeyi Keşfedin ve İlham Alın!",
+    blogTitle: "Türkçeyi keşfedin ve ilham alın!",
 
-    contactTitle: "Bizimle İletişime Geçin",
+    contactTitle: "Bizimle iletişime geçin",
     contactParagrf: `Sorularınızı yanıtlamak ve kayıt sürecinizi başlatmak için buradayız. İletişim bilgilerimizden veya form aracılığıyla bizimle iletişime geçebilirsiniz.`,
 
-    educationTitle: "Modern, Esnek ve Etkili Öğrenme Modelleri",
+    educationTitle: "Modern, esnek ve etkili öğrenme modelleri",
     educationParagraph: "Türkçe Saati olarak, öğrencilerimizin bireysel öğrenme stillerine göre programlar oluşturuyoruz. Çevrimiçi veya yüz yüze eğitim seçenekleriyle, dilediğiniz zaman ve yerde Türkçe öğrenin. Teknolojiyi eğitim süreçlerimize entegre ederek etkili ve interaktif bir dil öğrenme deneyimi sunuyoruz.",
 
-    faqTitle: "Sıkça Sorulan Sorular (SSS)",
+    faqTitle: "Sıkça sorulan sorular (SSS)",
     faqParagraph: "Türkçe Saati hakkında merak ettiğiniz tüm sorulara burada yanıt bulabilirsiniz. Eğitim sürecinden sertifika programlarına, ücretlerden kayıt işlemlerine kadar tüm detayları öğrenin.",
 
-    servicesTitle1: "Konuşma Türkçesi",
-    servicesTitle2: "Sertifika Programları",
-    servicesTitle3: "İş Türkçesi",
-    servicesTitle4: "Kurumlara Özel Eğitimler",
+    servicesTitle1: "Konuşma türkçesi",
+    servicesTitle2: "Sertifika programları",
+    servicesTitle3: "İş türkçesi",
+    servicesTitle4: "Kurumlara özel eğitimler",
 
     servicesParagraph1: "Günlük yaşamda daha akıcı Türkçe konuşmak ister misiniz? Konuşma odaklı programlarımızla dil pratiği yaparak özgüveninizi artırın ve Türkçede ustalaşın.",
     servicesParagraph2: "Türkçe dil bilginizi resmi bir sertifika ile belgelemek ister misiniz? Dil yeterlilik sınavlarına hazırlık eğitimlerimiz ve sertifikalı kurslarımız tam size göre!",

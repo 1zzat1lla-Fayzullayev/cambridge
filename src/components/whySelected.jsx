@@ -1,6 +1,5 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/no-unknown-property */
-/* eslint-disable react/no-unescaped-entities */
 import { useContext } from "react";
 import { getText } from "../language";
 import Wrapper from "../layout/wrapper";

@@ -40,24 +40,24 @@ export const en = {
     footerParagraph: "Learn more about our courses.",
     footerContactTitle: "Contact",
 
-    aboutTitle: "Turkish Hour: The Most Efficient Way to Learn a Language",
+    aboutTitle: "Turkish hour: the most efficient way to learn a language",
     aboutParagraph: "Bringing a fresh approach to Turkish education in Uzbekistan, Turkish Hour offers special training tailored to the needs of individuals and institutions. Our goal is to guide our students on the path to success by breaking down language barriers. With our experienced instructors and innovative teaching methods, we ensure that you learn Turkish quickly and effectively.",
 
-    blogTitle: "Discover Turkish and Get Inspired!",
+    blogTitle: "Discover turkish and get inspired!",
 
-    contactTitle: "Get in Touch with Us",
+    contactTitle: "Get in touch with us",
     contactParagrf: "We are here to answer your questions and start your registration process. You can reach us through our contact details or via the form.",
 
-    educationTitle: "Modern, Flexible, and Effective Learning Models",
-    educationParagraph: "At Turkish Hour, we create programs based on our students' individual learning styles. Learn Turkish whenever and wherever you want, with online or face-to-face education options. We integrate technology into our educational processes to provide an effective and interactive language learning experience.",
+    educationTitle: "Modern, flexible, and effective learning models",
+    educationParagraph: "At turkish hour, we create programs based on our students' individual learning styles. Learn Turkish whenever and wherever you want, with online or face-to-face education options. We integrate technology into our educational processes to provide an effective and interactive language learning experience.",
 
-    faqTitle: "Frequently Asked Questions (FAQ)",
+    faqTitle: "Frequently asked questions (FAQ)",
     faqParagraph: "Find answers to all your questions about Turkish Hour here. Learn about everything from the education process to certification programs, fees, and registration procedures.",
 
-    servicesTitle1: "Conversational Turkish",
-    servicesTitle2: "Certification Programs",
-    servicesTitle3: "Business Turkish",
-    servicesTitle4: "Special Training for Institutions",
+    servicesTitle1: "Conversational turkish",
+    servicesTitle2: "Certification programs",
+    servicesTitle3: "Business turkish",
+    servicesTitle4: "Special training for institutions",
 
     servicesParagraph1: "Do you want to speak Turkish more fluently in daily life? With our conversation-focused programs, improve your language skills and master Turkish with confidence.",
     servicesParagraph2: "Would you like to certify your Turkish language knowledge with an official certificate? Our preparatory courses for language proficiency exams and certified programs are just for you!",

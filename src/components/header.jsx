@@ -1,5 +1,4 @@
 /* eslint-disable no-unused-vars */
-/* eslint-disable react/no-unescaped-entities */
 import Wrapper from "../layout/wrapper";
 import { useContext, useEffect } from "react";
 import AOS from "aos";
