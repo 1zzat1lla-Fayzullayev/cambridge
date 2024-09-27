@@ -4,22 +4,22 @@ import 'swiper/css';
 
 const slides = [
     {
-        img: "/support.svg",
+        img: "/exprience.png",
         // title: "Ücretsiz ikinci öğretmen",
         description: "Tajribali va professional turk tili o'qituvchilari",
     },
     {
-        img: "/test.svg",
+        img: "/test.png",
         // title: "Test Merkezi",
         description: "Haqiqiy imtihonlarga yaqin sinov xizmatlari",
     },
     {
-        img: "/event.svg",
+        img: "/events.png",
         // title: "Ücretsiz etkinlikler",
         description: "Bepul tadbirlar",
     },
     {
-        img: "/co-working.svg",
+        img: "/career1.png",
         // title: "Ortak çalışma bölgeleri",
         description: "Talabalar uchun maxsus martaba bo'yicha maslahat va rivojlanish dasturini ishlab chiqish",
     },

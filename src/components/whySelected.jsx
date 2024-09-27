@@ -31,9 +31,9 @@ function WhySelected() {
                     <div data-aos="fade-right" delay="100" className="flex flex-col gap-3 max-w-[33%] aos-init aos-animate">
                         {/* Card 1 */}
                         <div className="flex flex-col gap-3 card">
-                            <div className="rounded-[1.3rem] flex-grow bg-[#f7f7f7] p-6 flex gap-3 items-center dark:bg-activeGray dark:bg-opacity-10">
+                            <div className="rounded-[1.3rem] flex-grow bg-[#f7f7f7] p-6 min-h-[130px] flex gap-3 items-center dark:bg-activeGray dark:bg-opacity-10">
                                 <img
-                                    src="/support.svg"
+                                    src="/exprience.png"
                                     sizes="(max-width: 768px) 150px, 300px"
                                     className="w-16"
                                 />
@@ -51,9 +51,9 @@ function WhySelected() {
 
                         {/* Card 2 */}
                         <div className="flex flex-col gap-3 card">
-                            <div className="rounded-[1.3rem] flex-grow bg-[#f7f7f7] p-6 flex gap-3 items-center dark:bg-activeGray dark:bg-opacity-10">
+                            <div className="rounded-[1.3rem] flex-grow bg-[#f7f7f7] p-6 min-h-[130px] flex gap-3 items-center dark:bg-activeGray dark:bg-opacity-10">
                                 <img
-                                    src="/test.svg"
+                                    src="/test.png"
                                     sizes="(max-width: 768px) 150px, 300px"
                                     className="w-16"
                                 />
@@ -75,9 +75,9 @@ function WhySelected() {
 
                         {/* Card 4 */}
                         <div className="flex flex-col gap-3 card">
-                            <div className="rounded-[1.3rem] flex-grow bg-[#f7f7f7] p-6 flex gap-3 items-center dark:bg-activeGray dark:bg-opacity-10">
+                            <div className="rounded-[1.3rem] flex-grow bg-[#f7f7f7] p-6 min-h-[130px] flex gap-3 items-center dark:bg-activeGray dark:bg-opacity-10">
                                 <img
-                                    src="/event.svg"
+                                    src="/events.png"
                                     sizes="(max-width: 768px) 150px, 300px"
                                     className="w-16"
                                 />
@@ -95,9 +95,9 @@ function WhySelected() {
 
                         {/* Card 5 */}
                         <div className="flex flex-col gap-3 card">
-                            <div className="rounded-[1.3rem] flex-grow bg-[#f7f7f7] p-6 flex gap-3 items-center dark:bg-activeGray dark:bg-opacity-10">
+                            <div className="rounded-[1.3rem] flex-grow bg-[#f7f7f7] p-6 min-h-[130px] flex gap-3 items-center dark:bg-activeGray dark:bg-opacity-10">
                                 <img
-                                    src="/co-working.svg"
+                                    src="/career1.png"
                                     sizes="(max-width: 768px) 150px, 300px"
                                     className="w-16"
                                 />
