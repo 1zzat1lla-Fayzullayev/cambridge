@@ -272,7 +272,7 @@ html.dark body {
     left: 0;
     width: 2px;
     height: 0;
-    background-color: rgba(0, 0, 0, 0.232);
+    background-color: rgba(0, 0, 0, 0.092);
     transition: height 0.4s ease-in-out, width 0.4s ease-in-out;
 }
 
@@ -283,7 +283,7 @@ html.dark body {
     left: 0;
     width: 0%;
     height: 2px;
-    background-color: rgba(0, 0, 0, 0.232);
+    background-color: rgba(0, 0, 0, 0.092);
     transition: width 0.4s ease-in-out;
 }
 
