@@ -55,7 +55,7 @@ export const uz = {
     faqParagraph: "Turk Tili Darsi haqida qiziqqan barcha savollaringizga bu yerda javob topishingiz mumkin. Ta'lim jarayonidan sertifikat dasturlarigacha, to‘lovlardan ro‘yxatdan o‘tish jarayonigacha barcha tafsilotlarni bilib oling.",
 
     servicesTitle1: "Suhbat turk tili",
-    servicesTitle2: "sertifikat dasturlari",
+    servicesTitle2: "Sertifikat dasturlari",
     servicesTitle3: "Ish turk tili",
     servicesTitle4: "Tashkilotlar uchun maxsus ta'limlar",
 

@@ -16,7 +16,7 @@ function Services() {
       <Wrapper>
         <div className="space-y-16 px-4 md:px-6 lg:px-8">
           {/** Service Section 1 */}
-          <div className="service-card flex flex-col md:flex-row items-center md:items-start gap-8">
+          <div className="service-card-top flex flex-col md:flex-row items-center md:items-start gap-8">
             <div className="md:w-1/2">
               <h2 className="text-3xl font-semibold text-mainBlue dark:text-white mb-4">
                 {getText("servicesTitle1")}
@@ -54,7 +54,7 @@ function Services() {
           </div>
 
           {/** Service Section 3 */}
-          <div className="service-card flex flex-col md:flex-row items-center md:items-start gap-8">
+          <div className="service-card-top flex flex-col md:flex-row items-center md:items-start gap-8">
             <div className="md:w-1/2">
               <h2 className="text-3xl font-semibold text-mainBlue dark:text-white mb-4">
                 {getText("servicesTitle3")}

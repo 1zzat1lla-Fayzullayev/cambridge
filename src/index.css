@@ -265,6 +265,43 @@ html.dark body {
     padding-bottom: 20px;
 }
 
+.service-card-top {
+    position: relative;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.service-card-top::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 2px;
+    height: 0;
+    background-color: rgba(0, 0, 0, 0.092);
+    transition: height 0.4s ease-in-out, width 0.4s ease-in-out;
+}
+
+.service-card-top::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.092);
+    transition: width 0.4s ease-in-out;
+}
+
+.service-card-top:hover::after {
+    height: 100%;
+    width: 2px;
+}
+
+.service-card-top:hover::before {
+    width: 100%;
+}
+
 .service-card::after {
     content: "";
     position: absolute;
