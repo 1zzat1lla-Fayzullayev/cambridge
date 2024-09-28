@@ -258,3 +258,40 @@ html.dark body {
     backdrop-filter: blur(10px);
     transition: backdrop-filter 0.3s ease;
 }
+
+.service-card {
+    position: relative;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.service-card::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 2px;
+    height: 0;
+    background-color: rgba(0, 0, 0, 0.232);
+    transition: height 0.4s ease-in-out, width 0.4s ease-in-out;
+}
+
+.service-card::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.232);
+    transition: width 0.4s ease-in-out;
+}
+
+.service-card:hover::after {
+    height: 100%;
+    width: 2px;
+}
+
+.service-card:hover::before {
+    width: 100%;
+}
