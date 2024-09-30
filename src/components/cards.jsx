@@ -60,7 +60,7 @@ function Cards() {
                         <div className="dark:bg-white bg-black w-3 h-3 lg:w-4 lg:h-4 rounded-full ml-auto" />
                     </div> */}
                     <p className="card-title font-medium text-3xl md:text-4xl xl:text-[2.7rem] dark:text-white text-mainBlue">
-                        14
+                        14+
                     </p>
                     <p className="card-text opacity-50 text-base xl:text-lg mt-1 dark:text-white text-mainBlue">
                     {getText("card3Paragraph")}
