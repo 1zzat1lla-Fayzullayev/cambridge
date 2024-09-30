@@ -10,14 +10,14 @@ function About() {
 
   return (
     <div
-      className="pt-[150px] bg-gray-50 dark:bg-gray-900 transition-colors duration-300"
+      className="pt-[150px] transition-colors duration-300"
       style={{ minHeight: "calc(100vh - 22.8rem)" }}
     >
       <Wrapper>
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           <div className="md:w-1/2 lg:w-2/5 px-4">
-            <h2 className="text-4xl md:text-5xl font-bold text-mainBlue dark:text-white mb-6">
-              {getText("aboutTitle")}
+            <h2 className="text-4xl md:text-5xl  text-mainBlue dark:text-white mb-6">
+              <span className="font-[700]">{getText("aboutTitleSpan")}</span> <br /> <span className="font-[500]">{getText("aboutTitle")}</span>
             </h2>
             <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
               {getText("aboutParagraph")}

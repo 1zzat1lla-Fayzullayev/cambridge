@@ -9,7 +9,7 @@ function Blog() {
     useContext(LanguageContext);
   return (
     <div
-      className="pt-[150px] bg-gray-50 dark:bg-gray-900 transition-colors duration-300"
+      className="pt-[150px] transition-colors duration-300"
       style={{ minHeight: "calc(100vh - 22.8rem)" }}
     >
       <Wrapper>

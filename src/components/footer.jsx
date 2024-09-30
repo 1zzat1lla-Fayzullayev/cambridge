@@ -11,7 +11,7 @@ function Footer({ theme }) {
     const { selectedLanguage, selectedFlag, changeLanguage } = useContext(LanguageContext)
 
     return (
-        <div className="pt-[100px]">
+        <div className="mt-[100px]">
 
         <div className="bg-[#F7F7F7] dark:bg-[#f8f9fa1a] mb-auto">
             <footer className="dark:bg-opacity-10 duration-300 w-full">
