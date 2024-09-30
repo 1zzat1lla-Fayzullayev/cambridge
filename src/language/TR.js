@@ -57,10 +57,10 @@ export const tr = {
     faqTitle: "Sıkça sorulan sorular (SSS)",
     faqParagraph: "Türkçe Saati hakkında merak ettiğiniz tüm sorulara burada yanıt bulabilirsiniz. Eğitim sürecinden sertifika programlarına, ücretlerden kayıt işlemlerine kadar tüm detayları öğrenin.",
 
-    servicesTitle1: "Konuşma türkçesi",
-    servicesTitle2: "Sertifika programları",
-    servicesTitle3: "İş türkçesi",
-    servicesTitle4: "Kurumlara özel eğitimler",
+    servicesTitle1: "Konuşma Türkçesi",
+    servicesTitle2: "Sertifika Programları",
+    servicesTitle3: "İş Türkçesi",
+    servicesTitle4: "Kurumlara Özel Eğitimler",
 
     servicesParagraph1: "Günlük yaşamda daha akıcı Türkçe konuşmak ister misiniz? Konuşma odaklı programlarımızla dil pratiği yaparak özgüveninizi artırın ve Türkçede ustalaşın.",
     servicesParagraph2: "Türkçe dil bilginizi resmi bir sertifika ile belgelemek ister misiniz? Dil yeterlilik sınavlarına hazırlık eğitimlerimiz ve sertifikalı kurslarımız tam size göre!",
