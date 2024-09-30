@@ -39,7 +39,7 @@ export const tr = {
     contactButtonSending: "Gönderiliyor...",
     contactButtonSend: "Gönder",
 
-    footerParagraph: "Kurslarımız hakkında daha fazla bilgi edinin.",
+    footerParagraph: "Her şey seninle başlar",
     footerContactTitle: "İletişim",
 
     aboutTitleSpan: "Türkçe saati:",

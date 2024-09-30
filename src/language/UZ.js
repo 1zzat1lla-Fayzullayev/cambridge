@@ -37,7 +37,7 @@ export const uz = {
     contactButtonSending: "Yuborilmoqda...",
     contactButtonSend: "Yuborish",
 
-    footerParagraph: "Kurslarimiz haqida ko'proq ma'lumot oling.",
+    footerParagraph: "Hammasi sizdan boshlanadi",
     footerContactTitle: "Aloqa",
 
     aboutTitleSpan: "Turk tili darsi:",

@@ -37,7 +37,7 @@ export const en = {
     contactButtonSending: "Sending...",
     contactButtonSend: "Send",
 
-    footerParagraph: "Learn more about our courses.",
+    footerParagraph: "Everything starts with you",
     footerContactTitle: "Contact",
 
     aboutTitleSpan: "Turkish hour:",
@@ -98,6 +98,7 @@ export const en = {
     faqQuestion10Q10Paragraph: "Yes, we offer flexible lesson hours based on the needs of our students. Classes are available both during the day and in the evening.",
 
     faq2QuestionTitle: "Turkish Proficiency Exam",
+
 
     faq2Question1Title: "What is the Turkish Language Proficiency Exam (TYS)?",
     faq2Question1Q1Title: "It is an exam developed by the Yunus Emre Institute to assess the language proficiency of individuals learning Turkish as a foreign language or as their native language, measuring all basic language skills and conducted internationally.",
