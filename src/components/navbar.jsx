@@ -71,7 +71,7 @@ function Navbar({ theme, setTheme }) {
                             <li><Link to={'/about'} className='text-base text-mainBlue flex cursor-pointer dark:text-white dark:opacity-50'>{getText("navbarAbout")}</Link></li>
                             <li><Link to={"/services"} className='text-base text-mainBlue flex cursor-pointer dark:text-white dark:opacity-50'>{getText("navbarService")}</Link></li>
                             <li><Link to={"/education-method"} className='text-base text-mainBlue flex cursor-pointer dark:text-white dark:opacity-50'>{getText("navbarEdu")}</Link></li>
-                            <li><Link to={"/blog"} className='text-base text-mainBlue flex cursor-pointer dark:text-white dark:opacity-50'>{getText("navbarBlog")}</Link></li>
+                            {/* <li><Link to={"/blog"} className='text-base text-mainBlue flex cursor-pointer dark:text-white dark:opacity-50'>{getText("navbarBlog")}</Link></li> */}
                             <li><Link to={"/faq"} className='text-base text-mainBlue flex cursor-pointer dark:text-white dark:opacity-50'>{getText("navbarFaq")}</Link></li>
                             <li><Link to={"/contact"} className='text-base text-mainBlue flex cursor-pointer dark:text-white dark:opacity-50'>{getText("navbarContact")}</Link></li>
                         </ul>
@@ -106,12 +106,12 @@ function Navbar({ theme, setTheme }) {
                     </div>
                 </div>
             </Wrapper>
-            <div className={`menu duration-300 h-full xl:w-[calc(100%-170px)] lg:hidden max-w-xl xl:max-w-none xl:h-auto bg-white fixed inset-0 z-[998] pt-20 lg:pt-24 px-5 pb-6 flex flex-col justify-between xl:hidden dark:bg-[#121624] ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'}`}>
+            <div className={`menu duration-300 h-full xl:w-[calc(100%-170px)] lg:hidden max-w-xl xl:max-w-none xl:h-auto bg-white fixed inset-0 z-[99] pt-20 lg:pt-24 px-5 pb-6 flex flex-col justify-between xl:hidden dark:bg-[#121624] ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'}`}>
                 <div className="xl:flex xl:gap-x-5">
                     <Link to={"/about"} onClick={toggleMenu} className="font-medium block text-base text-center rounded-xl p-4 mb-2.5 cursor-pointer bg-[#f8f9fa] dark:text-white dark:bg-[#f8f9fa1a] dark:bg-opacity-10">{getText("navbarAbout")}</Link>
                     <Link to={"/services"} onClick={toggleMenu} className="font-medium block text-base text-center rounded-xl p-4 mb-2.5 cursor-pointer bg-[#f8f9fa] dark:text-white dark:bg-[#f8f9fa1a] dark:bg-opacity-10">{getText("navbarService")}</Link>
                     <Link to={"/education-method"} onClick={toggleMenu} className="font-medium block text-base text-center rounded-xl p-4 mb-2.5 cursor-pointer bg-[#f8f9fa] dark:text-white dark:bg-[#f8f9fa1a] dark:bg-opacity-10">{getText("navbarEdu")}</Link>
-                    <Link to={"/blog"} onClick={toggleMenu} className="font-medium block text-base text-center rounded-xl p-4 mb-2.5 cursor-pointer bg-[#f8f9fa] dark:text-white dark:bg-[#f8f9fa1a] dark:bg-opacity-10">{getText("navbarBlog")}</Link>
+                    {/* <Link to={"/blog"} onClick={toggleMenu} className="font-medium block text-base text-center rounded-xl p-4 mb-2.5 cursor-pointer bg-[#f8f9fa] dark:text-white dark:bg-[#f8f9fa1a] dark:bg-opacity-10">{getText("navbarBlog")}</Link> */}
                     <Link to={"/faq"} onClick={toggleMenu} className="font-medium block text-base text-center rounded-xl p-4 mb-2.5 cursor-pointer bg-[#f8f9fa] dark:text-white dark:bg-[#f8f9fa1a] dark:bg-opacity-10">{getText("navbarFaq")}</Link>
                     <Link to={"/contact"} onClick={toggleMenu} className="font-medium block text-base text-center rounded-xl p-4 mb-2.5 cursor-pointer bg-[#f8f9fa] dark:text-white dark:bg-[#f8f9fa1a] dark:bg-opacity-10">{getText("navbarContact")}</Link>
                 </div>
