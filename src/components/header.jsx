@@ -5,15 +5,12 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { getText } from "../language";
 import { LanguageContext } from "../context/LanguageContext";
-
 function Header() {
     const { selectedLanguage, selectedFlag, changeLanguage } = useContext(LanguageContext)
-
 
     useEffect(() => {
         AOS.init();
     }, []);
-
     return (
         <div className="pt-[100px]">
 
@@ -43,25 +40,24 @@ function Header() {
                             </button>
                         </a>
                     </div>
-                    <div
-                        data-aos="fade-left"
-                        data-aos-duration="500"
-                        className="md:w-[50%] lg:w-[53%] mt-7 flex justify-center items-center relative"
-                    >
-                        <div className="mask-container">
+                    <div className="md:w-[50%] lg:w-[53%] mt-7 flex justify-center items-center relative" data-aos="fade-left"
+                        data-aos-duration="500">
+                        <div
+
+                            className="mask-container"
+                        >
                             <img
                                 src="/imgHeader.jpg"
                                 alt=""
                                 className="masked-image"
-
                             />
                         </div>
                     </div>
+
                 </section>
             </Wrapper>
         </div>
 
     );
 }
-
 export default Header;
